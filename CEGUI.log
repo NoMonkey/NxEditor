@@ -1,366 +1,366 @@
-15/03/2013 15:03:17 (Std) 	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-15/03/2013 15:03:17 (Std) 	+                     Crazy Eddie's GUI System - Event log                    +
-15/03/2013 15:03:17 (Std) 	+                          (http://www.cegui.org.uk/)                         +
-15/03/2013 15:03:17 (Std) 	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+15/03/2013 17:13:55 (Std) 	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+15/03/2013 17:13:55 (Std) 	+                     Crazy Eddie's GUI System - Event log                    +
+15/03/2013 17:13:55 (Std) 	+                          (http://www.cegui.org.uk/)                         +
+15/03/2013 17:13:55 (Std) 	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 
-15/03/2013 15:03:17 (Std) 	CEGUI::Logger singleton created. (003DCE78)
-15/03/2013 15:03:17 (Std) 	
-15/03/2013 15:03:17 (Std) 	********************************************************************************
-15/03/2013 15:03:17 (Std) 	* Important:                                                                   *
-15/03/2013 15:03:17 (Std) 	*     To get support at the CEGUI forums, you must post _at least_ the section *
-15/03/2013 15:03:17 (Std) 	*     of this log file indicated below.  Failure to do this will result in no  *
-15/03/2013 15:03:17 (Std) 	*     support being given; please do not waste our time.                       *
-15/03/2013 15:03:17 (Std) 	********************************************************************************
-15/03/2013 15:03:17 (Std) 	********************************************************************************
-15/03/2013 15:03:17 (Std) 	* -------- START OF ESSENTIAL SECTION TO BE POSTED ON THE FORUM       -------- *
-15/03/2013 15:03:17 (Std) 	********************************************************************************
-15/03/2013 15:03:17 (Std) 	---- Version 0.7.7 (Build: Dec 13 2012 Microsoft Windows MSVC++ 10.0 32 bit) ----
-15/03/2013 15:03:17 (Std) 	---- Renderer module is: CEGUI::OgreRenderer - Official OGRE based 2nd generation renderer module. ----
-15/03/2013 15:03:17 (Std) 	---- XML Parser module is: CEGUI::ExpatParser - Official expat based parser module for CEGUI ----
-15/03/2013 15:03:17 (Std) 	---- Image Codec module is: OgreImageCodec - Integrated ImageCodec using the Ogre engine. ----
-15/03/2013 15:03:17 (Std) 	---- Scripting module is: None ----
-15/03/2013 15:03:17 (Std) 	********************************************************************************
-15/03/2013 15:03:17 (Std) 	* -------- END OF ESSENTIAL SECTION TO BE POSTED ON THE FORUM         -------- *
-15/03/2013 15:03:17 (Std) 	********************************************************************************
-15/03/2013 15:03:17 (Std) 	
-15/03/2013 15:03:17 (Std) 	---- Begining CEGUI System initialisation ----
-15/03/2013 15:03:17 (Std) 	CEGUI::ImagesetManager singleton created (003DCD98)
-15/03/2013 15:03:17 (Std) 	CEGUI::FontManager singleton created. (003DCFE0)
-15/03/2013 15:03:17 (Std) 	CEGUI::WindowFactoryManager singleton created
-15/03/2013 15:03:17 (Std) 	CEGUI::WindowManager singleton created (003C86A0)
-15/03/2013 15:03:17 (Std) 	CEGUI::SchemeManager singleton created. (003DD170)
-15/03/2013 15:03:17 (Std) 	CEGUI::MouseCursor singleton created. (003D5E78)
-15/03/2013 15:03:17 (Std) 	CEGUI::GlobalEventSet singleton created. (003BF500)
-15/03/2013 15:03:17 (Std) 	CEGUI::AnimationManager singleton created (003C4E90)
-15/03/2013 15:03:17 (Std) 	CEGUI::WidgetLookManager singleton created. (003BA4D0)
-15/03/2013 15:03:17 (Std) 	CEGUI::WindowRendererManager singleton created (003BA488)
-15/03/2013 15:03:17 (Std) 	CEGUI::RenderEffectManager singleton created (003BF528)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'DefaultWindow' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'DefaultWindow' windows added. (003CC8D0)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'DragContainer' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'DragContainer' windows added. (003CC978)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'ScrolledContainer' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'ScrolledContainer' windows added. (003CCA20)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'ClippedContainer' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'ClippedContainer' windows added. (003CCAC8)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/Checkbox' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/Checkbox' windows added. (003CCB70)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/PushButton' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/PushButton' windows added. (003CCC18)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/RadioButton' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/RadioButton' windows added. (003CCCC0)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/Combobox' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/Combobox' windows added. (003CCD68)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/ComboDropList' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/ComboDropList' windows added. (003CCE10)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/Editbox' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/Editbox' windows added. (003D3708)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/FrameWindow' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/FrameWindow' windows added. (003D37B0)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/ItemEntry' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/ItemEntry' windows added. (003D3858)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/Listbox' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/Listbox' windows added. (003D3900)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/ListHeader' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/ListHeader' windows added. (003D39A8)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/ListHeaderSegment' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/ListHeaderSegment' windows added. (003D3A50)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/Menubar' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/Menubar' windows added. (003D3AF8)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/PopupMenu' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/PopupMenu' windows added. (003D3BA0)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/MenuItem' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/MenuItem' windows added. (003D3C48)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/MultiColumnList' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/MultiColumnList' windows added. (003D3CF0)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/MultiLineEditbox' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/MultiLineEditbox' windows added. (003D3D98)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/ProgressBar' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/ProgressBar' windows added. (003D3E40)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/ScrollablePane' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/ScrollablePane' windows added. (003D3EE8)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/Scrollbar' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/Scrollbar' windows added. (003D4038)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/Slider' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/Slider' windows added. (003D3F90)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/Spinner' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/Spinner' windows added. (003D4188)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/TabButton' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/TabButton' windows added. (003D40E0)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/TabControl' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/TabControl' windows added. (003D4230)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/Thumb' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/Thumb' windows added. (003D42D8)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/Titlebar' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/Titlebar' windows added. (003D4428)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/Tooltip' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/Tooltip' windows added. (003D4380)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/ItemListbox' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/ItemListbox' windows added. (003D44D0)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/GroupBox' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/GroupBox' windows added. (003D4578)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'CEGUI/Tree' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'CEGUI/Tree' windows added. (003D4620)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'HorizontalLayoutContainer' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'HorizontalLayoutContainer' windows added. (003D46C8)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'VerticalLayoutContainer' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'VerticalLayoutContainer' windows added. (003D4770)
-15/03/2013 15:03:17 (Std) 	Created WindowFactory for 'GridLayoutContainer' windows.
-15/03/2013 15:03:17 (Std) 	WindowFactory for 'GridLayoutContainer' windows added. (003D4818)
-15/03/2013 15:03:17 (Std) 	Window type alias named 'DefaultGUISheet' added for window type 'DefaultWindow'.
-15/03/2013 15:03:17 (Std) 	CEGUI::System singleton created. (003C5BE8)
-15/03/2013 15:03:17 (Std) 	---- CEGUI System initialisation completed ----
-15/03/2013 15:03:17 (Std) 	
-15/03/2013 15:03:17 (Std) 	Started creation of Scheme from XML specification:
-15/03/2013 15:03:17 (Std) 	---- CEGUI GUIScheme name: WindowsLookSkin
-15/03/2013 15:03:17 (Std) 	Started creation of Imageset from XML specification:
-15/03/2013 15:03:17 (Std) 	---- CEGUI Imageset name: WindowsLook
-15/03/2013 15:03:17 (Std) 	---- Source texture file: WindowsLook.tga in resource group: (Default)
-15/03/2013 15:03:17 (Std) 	===== Falagard 'root' element: look and feel parsing begins =====
-15/03/2013 15:03:17 (Std) 	===== Look and feel parsing completed =====
-15/03/2013 15:03:17 (Std) 	No window renderer factories specified for module 'CEGUIFalagardWRBase' - adding all available factories...
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/Button' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/Button' added. (003D4A10)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/Default' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/Default' added. (003D4E00)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/Editbox' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/Editbox' added. (003D4EA8)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/FrameWindow' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/FrameWindow' added. (003D4F50)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/ItemEntry' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/ItemEntry' added. (003D4D58)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/ListHeader' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/ListHeader' added. (003D4FF8)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/ListHeaderSegment' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/ListHeaderSegment' added. (003D50A0)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/Listbox' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/Listbox' added. (003D5148)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/Menubar' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/Menubar' added. (003D5298)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/MenuItem' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/MenuItem' added. (003D5340)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/MultiColumnList' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/MultiColumnList' added. (003D51F0)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/MultiLineEditbox' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/MultiLineEditbox' added. (003D53E8)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/PopupMenu' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/PopupMenu' added. (003D5490)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/ProgressBar' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/ProgressBar' added. (003D5538)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/ScrollablePane' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/ScrollablePane' added. (003D55E0)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/Scrollbar' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/Scrollbar' added. (07E20060)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/Slider' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/Slider' added. (07E20108)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/Static' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/Static' added. (07E20258)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/StaticImage' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/StaticImage' added. (07E20300)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/StaticText' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/StaticText' added. (07E201B0)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/SystemButton' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/SystemButton' added. (07E203A8)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/TabButton' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/TabButton' added. (07E20450)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/TabControl' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/TabControl' added. (07E204F8)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/Titlebar' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/Titlebar' added. (07E205A0)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/ToggleButton' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/ToggleButton' added. (07E20648)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/Tooltip' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/Tooltip' added. (07E206F0)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/ItemListbox' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/ItemListbox' added. (07E20840)
-15/03/2013 15:03:17 (Std) 	Created WindowRendererFactory for 'Falagard/Tree' WindowRenderers.
-15/03/2013 15:03:17 (Std) 	WindowRendererFactory 'Falagard/Tree' added. (07E20798)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/Button' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' Look'N'Feel 'WindowsLook/Button' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/Checkbox' using base type 'CEGUI/Checkbox', window renderer 'Falagard/ToggleButton' Look'N'Feel 'WindowsLook/Checkbox' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/IconButton' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' Look'N'Feel 'WindowsLook/IconButton' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/RadioButton' using base type 'CEGUI/RadioButton', window renderer 'Falagard/ToggleButton' Look'N'Feel 'WindowsLook/RadioButton' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/FrameWindow' using base type 'CEGUI/FrameWindow', window renderer 'Falagard/FrameWindow' Look'N'Feel 'WindowsLook/FrameWindow' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/Titlebar' using base type 'CEGUI/Titlebar', window renderer 'Falagard/Titlebar' Look'N'Feel 'WindowsLook/Titlebar' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/SystemButton' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' Look'N'Feel 'WindowsLook/SystemButton' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/Editbox' using base type 'CEGUI/Editbox', window renderer 'Falagard/Editbox' Look'N'Feel 'WindowsLook/Editbox' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/MultiLineEditbox' using base type 'CEGUI/MultiLineEditbox', window renderer 'Falagard/MultiLineEditbox' Look'N'Feel 'WindowsLook/MultiLineEditbox' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/Menubar' using base type 'CEGUI/Menubar', window renderer 'Falagard/Menubar' Look'N'Feel 'WindowsLook/Menubar' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/PopupMenu' using base type 'CEGUI/PopupMenu', window renderer 'Falagard/PopupMenu' Look'N'Feel 'WindowsLook/PopupMenu' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/MenuItem' using base type 'CEGUI/MenuItem', window renderer 'Falagard/MenuItem' Look'N'Feel 'WindowsLook/MenuItem' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/ProgressBar' using base type 'CEGUI/ProgressBar', window renderer 'Falagard/ProgressBar' Look'N'Feel 'WindowsLook/ProgressBar' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/VerticalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' Look'N'Feel 'WindowsLook/VerticalScrollbar' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/HorizontalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' Look'N'Feel 'WindowsLook/HorizontalScrollbar' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/VerticalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' Look'N'Feel 'WindowsLook/VerticalScrollbarThumb' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/HorizontalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' Look'N'Feel 'WindowsLook/HorizontalScrollbarThumb' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/TabButton' using base type 'CEGUI/TabButton', window renderer 'Falagard/TabButton' Look'N'Feel 'WindowsLook/TabButton' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/TabControl' using base type 'CEGUI/TabControl', window renderer 'Falagard/TabControl' Look'N'Feel 'WindowsLook/TabControl' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/TabContentPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'WindowsLook/TabContentPane' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/TabButtonPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'WindowsLook/TabButtonPane' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/ComboDropList' using base type 'CEGUI/ComboDropList', window renderer 'Falagard/Listbox' Look'N'Feel 'WindowsLook/ComboDropList' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/Combobox' using base type 'CEGUI/Combobox', window renderer 'Falagard/Default' Look'N'Feel 'WindowsLook/Combobox' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/Listbox' using base type 'CEGUI/Listbox', window renderer 'Falagard/Listbox' Look'N'Feel 'WindowsLook/Listbox' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/ListHeader' using base type 'CEGUI/ListHeader', window renderer 'Falagard/ListHeader' Look'N'Feel 'WindowsLook/ListHeader' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/ListHeaderSegment' using base type 'CEGUI/ListHeaderSegment', window renderer 'Falagard/ListHeaderSegment' Look'N'Feel 'WindowsLook/ListHeaderSegment' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/MultiColumnList' using base type 'CEGUI/MultiColumnList', window renderer 'Falagard/MultiColumnList' Look'N'Feel 'WindowsLook/MultiColumnList' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/Slider' using base type 'CEGUI/Slider', window renderer 'Falagard/Slider' Look'N'Feel 'WindowsLook/Slider' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/SliderThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' Look'N'Feel 'WindowsLook/SliderThumb' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/ScrollablePane' using base type 'CEGUI/ScrollablePane', window renderer 'Falagard/ScrollablePane' Look'N'Feel 'WindowsLook/ScrollablePane' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/Spinner' using base type 'CEGUI/Spinner', window renderer 'Falagard/Default' Look'N'Feel 'WindowsLook/Spinner' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/Tooltip' using base type 'CEGUI/Tooltip', window renderer 'Falagard/Tooltip' Look'N'Feel 'WindowsLook/Tooltip' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/Static' using base type 'DefaultWindow', window renderer 'Falagard/Static' Look'N'Feel 'WindowsLook/Static' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/StaticImage' using base type 'DefaultWindow', window renderer 'Falagard/StaticImage' Look'N'Feel 'WindowsLook/StaticImage' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/StaticText' using base type 'DefaultWindow', window renderer 'Falagard/StaticText' Look'N'Feel 'WindowsLook/StaticText' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/ItemListbox' using base type 'CEGUI/ItemListbox', window renderer 'Falagard/ItemListbox' Look'N'Feel 'WindowsLook/ItemListbox' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/ListboxItem' using base type 'CEGUI/ItemEntry', window renderer 'Falagard/ItemEntry' Look'N'Feel 'WindowsLook/ListboxItem' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'WindowsLook/GroupBox' using base type 'CEGUI/GroupBox', window renderer 'Falagard/Default' Look'N'Feel 'WindowsLook/GroupBox' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Started creation of Scheme from XML specification:
-15/03/2013 15:03:17 (Std) 	---- CEGUI GUIScheme name: OgreTray
-15/03/2013 15:03:17 (Std) 	Started creation of Imageset from XML specification:
-15/03/2013 15:03:17 (Std) 	---- CEGUI Imageset name: OgreTrayImages
-15/03/2013 15:03:17 (Std) 	---- Source texture file: OgreTrayImages.png in resource group: (Default)
-15/03/2013 15:03:17 (Std) 	Started creation of Font from XML specification:
-15/03/2013 15:03:17 (Std) 	---- CEGUI font name: DejaVuSans-10
-15/03/2013 15:03:17 (Std) 	----       Font type: FreeType
-15/03/2013 15:03:17 (Std) 	----     Source file: DejaVuSans.ttf in resource group: (Default)
-15/03/2013 15:03:17 (Std) 	---- Real point size: 10
-15/03/2013 15:03:17 (Std) 	===== Falagard 'root' element: look and feel parsing begins =====
-15/03/2013 15:03:17 (Std) 	===== Look and feel parsing completed =====
-15/03/2013 15:03:17 (Std) 	No window renderer factories specified for module 'CEGUIFalagardWRBase' - adding all available factories...
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/Button' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' Look'N'Feel 'OgreTray/PushButton' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/Titlebar' using base type 'CEGUI/Titlebar', window renderer 'Falagard/Titlebar' Look'N'Feel 'OgreTray/Titlebar' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/FrameWindow' using base type 'CEGUI/FrameWindow', window renderer 'Falagard/FrameWindow' Look'N'Feel 'OgreTray/FrameWindow' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/Thumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' Look'N'Feel 'OgreTray/Thumb' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/VerticalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' Look'N'Feel 'OgreTray/VerticalScrollbar' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/HorizontalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' Look'N'Feel 'OgreTray/HorizontalScrollbar' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/StaticText' using base type 'DefaultWindow', window renderer 'Falagard/StaticText' Look'N'Feel 'OgreTray/StaticText' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/Title' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/MiniTray' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/CaptionedStaticText' using base type 'DefaultWindow', window renderer 'Falagard/StaticText' Look'N'Feel 'OgreTray/CaptionedStaticText' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/ProgressBar' using base type 'CEGUI/ProgressBar', window renderer 'Falagard/ProgressBar' Look'N'Feel 'OgreTray/ProgressBar' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/Editbox' using base type 'CEGUI/Editbox', window renderer 'Falagard/Editbox' Look'N'Feel 'OgreTray/Editbox' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/MultiLineEditbox' using base type 'CEGUI/MultiLineEditbox', window renderer 'Falagard/MultiLineEditbox' Look'N'Feel 'OgreTray/MultiLineEditbox' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/Listbox' using base type 'CEGUI/Listbox', window renderer 'Falagard/Listbox' Look'N'Feel 'OgreTray/Listbox' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/ComboDropList' using base type 'CEGUI/ComboDropList', window renderer 'Falagard/Listbox' Look'N'Feel 'OgreTray/Listbox' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/Combobox' using base type 'CEGUI/Combobox', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/Combobox' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/DropDownMenu' using base type 'CEGUI/Combobox', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/DropDownMenu' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/Group' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/Group' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/Checkbox' using base type 'CEGUI/Checkbox', window renderer 'Falagard/ToggleButton' Look'N'Feel 'OgreTray/Checkbox' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/RadioButton' using base type 'CEGUI/RadioButton', window renderer 'Falagard/ToggleButton' Look'N'Feel 'OgreTray/RadioButton' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/Slider' using base type 'CEGUI/Slider', window renderer 'Falagard/Slider' Look'N'Feel 'OgreTray/Slider' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/StaticImage' using base type 'DefaultWindow', window renderer 'Falagard/StaticImage' Look'N'Feel 'OgreTray/StaticImage' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/AltStaticImage' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/AltStaticImage' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/Tooltip' using base type 'CEGUI/Tooltip', window renderer 'Falagard/Tooltip' Look'N'Feel 'OgreTray/Tooltip' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/ItemListbox' using base type 'CEGUI/ItemListbox', window renderer 'Falagard/ItemListbox' Look'N'Feel 'OgreTray/ItemListbox' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/ListboxItem' using base type 'CEGUI/ItemEntry', window renderer 'Falagard/ItemEntry' Look'N'Feel 'OgreTray/ListboxItem' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/Spinner' using base type 'CEGUI/Spinner', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/Spinner' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/ScrollablePane' using base type 'CEGUI/ScrollablePane', window renderer 'Falagard/ScrollablePane' Look'N'Feel 'OgreTray/ScrollablePane' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/ListHeaderSegment' using base type 'CEGUI/ListHeaderSegment', window renderer 'Falagard/ListHeaderSegment' Look'N'Feel 'OgreTray/ListHeaderSegment' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/ListHeader' using base type 'CEGUI/ListHeader', window renderer 'Falagard/ListHeader' Look'N'Feel 'OgreTray/ListHeader' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/MultiColumnList' using base type 'CEGUI/MultiColumnList', window renderer 'Falagard/MultiColumnList' Look'N'Feel 'OgreTray/MultiColumnList' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/MenuItem' using base type 'CEGUI/MenuItem', window renderer 'Falagard/MenuItem' Look'N'Feel 'OgreTray/MenuItem' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/Menubar' using base type 'CEGUI/Menubar', window renderer 'Falagard/Menubar' Look'N'Feel 'OgreTray/Menubar' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/PopupMenu' using base type 'CEGUI/PopupMenu', window renderer 'Falagard/PopupMenu' Look'N'Feel 'OgreTray/PopupMenu' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/TabButton' using base type 'CEGUI/TabButton', window renderer 'Falagard/TabButton' Look'N'Feel 'OgreTray/TabButton' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/TabButtonPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/TabButtonPane' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/TabContentPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/TabContentPane' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/TabControl' using base type 'CEGUI/TabControl', window renderer 'Falagard/TabControl' Look'N'Feel 'OgreTray/TabControl' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Creating falagard mapping for type 'OgreTray/BG' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/BGTest' and RenderEffect ''. (0035CCB8)
-15/03/2013 15:03:17 (Std) 	Started creation of Font from XML specification:
-15/03/2013 15:03:17 (Std) 	---- CEGUI font name: DejaVuSans-10
-15/03/2013 15:03:17 (Std) 	----       Font type: FreeType
-15/03/2013 15:03:17 (Std) 	----     Source file: DejaVuSans.ttf in resource group: (Default)
-15/03/2013 15:03:17 (Std) 	---- Real point size: 10
-15/03/2013 15:03:17 (Std) 	---- Returning existing instance of Font named 'DejaVuSans-10'.
-15/03/2013 15:03:18 (Std) 	Attempting to create Imageset 'DejaVuSans-10_auto_glyph_images_ ' with texture only.
-15/03/2013 15:03:18 (Error)	ScrolledContainerProperties::ChildExtentsArea property does not support being set.
-15/03/2013 15:03:18 (Error)	Attempt to set value of '116'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterial/TextWeight
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterial/TextWeight
-15/03/2013 15:03:18 (Error)	Attempt to set value of '145'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterial/TextDynFriction
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterial/TextDynFriction
-15/03/2013 15:03:18 (Error)	Attempt to set value of '147'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterial/TextStaticFriction
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterial/TextStaticFriction
-15/03/2013 15:03:18 (Error)	Attempt to set value of '178'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterial/TextRestitution
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterial/TextRestitution
-15/03/2013 15:03:18 (Error)	Attempt to set value of '309'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterial/TextMaterialProperties
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterial/TextMaterialProperties
-15/03/2013 15:03:18 (Error)	Attempt to set value of '258'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterial/TextBodyProperties
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterial/TextBodyProperties
-15/03/2013 15:03:18 (Error)	Attempt to set value of '172'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterial/TextLinearDamping
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterial/TextLinearDamping
-15/03/2013 15:03:18 (Error)	Attempt to set value of '178'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterial/TextAngularDamping
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterial/TextAngularDamping
-15/03/2013 15:03:18 (Error)	Attempt to set value of '119'  to read only property 'HorzExtent' on window: Root/Editor/FrameWorld/ButtonApply
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameWorld/ButtonApply
-15/03/2013 15:03:18 (Error)	Attempt to set value of '90'  to read only property 'HorzExtent' on window: Root/Editor/FrameThrow/TextForce
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameThrow/TextForce
-15/03/2013 15:03:18 (Error)	Attempt to set value of '94'  to read only property 'HorzExtent' on window: Root/Editor/FrameThrow/TextThrow
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameThrow/TextThrow
-15/03/2013 15:03:18 (Error)	Attempt to set value of '88'  to read only property 'HorzExtent' on window: Root/Editor/FrameThrow/TextPlace
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameThrow/TextPlace
-15/03/2013 15:03:18 (Error)	Attempt to set value of '129'  to read only property 'HorzExtent' on window: Root/Editor/FrameSelected/TextName
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameSelected/TextName
-15/03/2013 15:03:18 (Error)	Attempt to set value of '138'  to read only property 'HorzExtent' on window: Root/Editor/FrameRotation/TextRot
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameRotation/TextRot
-15/03/2013 15:03:18 (Error)	Attempt to set value of '159'  to read only property 'HorzExtent' on window: Root/FrameSave/TextFilename
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/FrameSave/TextFilename
-15/03/2013 15:03:18 (Error)	Attempt to set value of '159'  to read only property 'HorzExtent' on window: Root/FrameLoad/TextFilename
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/FrameLoad/TextFilename
-15/03/2013 15:03:18 (Error)	ScrolledContainerProperties::ChildExtentsArea property does not support being set.
-15/03/2013 15:03:18 (Error)	Attempt to set value of '96'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextWidth
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextWidth
-15/03/2013 15:03:18 (Error)	Attempt to set value of '108'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextHeight
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextHeight
-15/03/2013 15:03:18 (Error)	Attempt to set value of '147'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextDamping
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextDamping
-15/03/2013 15:03:18 (Error)	Attempt to set value of '170'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextStretching
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextStretching
-15/03/2013 15:03:18 (Error)	Attempt to set value of '134'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextBending
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextBending
-15/03/2013 15:03:18 (Error)	Attempt to set value of '142'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextPressure
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextPressure
-15/03/2013 15:03:18 (Error)	Attempt to set value of '122'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextFriction
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextFriction
-15/03/2013 15:03:18 (Error)	Attempt to set value of '123'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextDensity
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextDensity
-15/03/2013 15:03:18 (Error)	Attempt to set value of '141'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextThickness
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextThickness
-15/03/2013 15:03:18 (Error)	Attempt to set value of '83'  to read only property 'HorzExtent' on window: Root/Editor/FrameHang/TextHang
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameHang/TextHang
-15/03/2013 15:03:18 (Error)	Attempt to set value of '76'  to read only property 'HorzExtent' on window: Root/Editor/FrameHang/TextDrop
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameHang/TextDrop
-15/03/2013 15:03:18 (Error)	ScrolledContainerProperties::ChildExtentsArea property does not support being set.
-15/03/2013 15:03:18 (Error)	Attempt to set value of '132'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextLifetime
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextLifetime
-15/03/2013 15:03:18 (Error)	Attempt to set value of '297'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextEmitterProperties
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextEmitterProperties
-15/03/2013 15:03:18 (Error)	Attempt to set value of '140'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextRate
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextRate
-15/03/2013 15:03:18 (Error)	Attempt to set value of '102'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextSpeed
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextSpeed
-15/03/2013 15:03:18 (Error)	Attempt to set value of '134'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextRAngle
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextRAngle
-15/03/2013 15:03:18 (Error)	Attempt to set value of '160'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextRepulsion
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextRepulsion
-15/03/2013 15:03:18 (Error)	Attempt to set value of '105'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextDimensionX
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextDimensionX
-15/03/2013 15:03:18 (Error)	Attempt to set value of '103'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextDimensionY
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextDimensionY
-15/03/2013 15:03:18 (Error)	Attempt to set value of '255'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextEmitterProperties1
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextEmitterProperties1
-15/03/2013 15:03:18 (Error)	Attempt to set value of '164'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TexRestDensity
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TexRestDensity
-15/03/2013 15:03:18 (Error)	Attempt to set value of '144'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextViscosity
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextViscosity
-15/03/2013 15:03:18 (Error)	Attempt to set value of '141'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextStiffness
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextStiffness
-15/03/2013 15:03:18 (Error)	Attempt to set value of '147'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextDamping
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextDamping
-15/03/2013 15:03:18 (Error)	Attempt to set value of '159'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextDynFricDynShape
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextDynFricDynShape
-15/03/2013 15:03:18 (Error)	Attempt to set value of '155'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextDynFricStatShape
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextDynFricStatShape
-15/03/2013 15:03:18 (Error)	ScrolledContainerProperties::ChildExtentsArea property does not support being set.
-15/03/2013 15:03:18 (Error)	Attempt to set value of '90'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialForce/TextForce
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialForce/TextForce
-15/03/2013 15:03:18 (Error)	Attempt to set value of '267'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialForce/ScrollPlane/ForceProperties
-15/03/2013 15:03:18 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialForce/ScrollPlane/ForceProperties
-15/03/2013 15:03:18 (Std) 	---- Successfully completed loading of GUI layout from 'menu.layout' ----
+15/03/2013 17:13:55 (Std) 	CEGUI::Logger singleton created. (008AD410)
+15/03/2013 17:13:55 (Std) 	
+15/03/2013 17:13:55 (Std) 	********************************************************************************
+15/03/2013 17:13:55 (Std) 	* Important:                                                                   *
+15/03/2013 17:13:55 (Std) 	*     To get support at the CEGUI forums, you must post _at least_ the section *
+15/03/2013 17:13:55 (Std) 	*     of this log file indicated below.  Failure to do this will result in no  *
+15/03/2013 17:13:55 (Std) 	*     support being given; please do not waste our time.                       *
+15/03/2013 17:13:55 (Std) 	********************************************************************************
+15/03/2013 17:13:55 (Std) 	********************************************************************************
+15/03/2013 17:13:55 (Std) 	* -------- START OF ESSENTIAL SECTION TO BE POSTED ON THE FORUM       -------- *
+15/03/2013 17:13:55 (Std) 	********************************************************************************
+15/03/2013 17:13:55 (Std) 	---- Version 0.7.7 (Build: Dec 13 2012 Microsoft Windows MSVC++ 10.0 32 bit) ----
+15/03/2013 17:13:55 (Std) 	---- Renderer module is: CEGUI::OgreRenderer - Official OGRE based 2nd generation renderer module. ----
+15/03/2013 17:13:55 (Std) 	---- XML Parser module is: CEGUI::ExpatParser - Official expat based parser module for CEGUI ----
+15/03/2013 17:13:55 (Std) 	---- Image Codec module is: OgreImageCodec - Integrated ImageCodec using the Ogre engine. ----
+15/03/2013 17:13:55 (Std) 	---- Scripting module is: None ----
+15/03/2013 17:13:55 (Std) 	********************************************************************************
+15/03/2013 17:13:55 (Std) 	* -------- END OF ESSENTIAL SECTION TO BE POSTED ON THE FORUM         -------- *
+15/03/2013 17:13:55 (Std) 	********************************************************************************
+15/03/2013 17:13:55 (Std) 	
+15/03/2013 17:13:55 (Std) 	---- Begining CEGUI System initialisation ----
+15/03/2013 17:13:55 (Std) 	CEGUI::ImagesetManager singleton created (008AD330)
+15/03/2013 17:13:55 (Std) 	CEGUI::FontManager singleton created. (008AD578)
+15/03/2013 17:13:55 (Std) 	CEGUI::WindowFactoryManager singleton created
+15/03/2013 17:13:55 (Std) 	CEGUI::WindowManager singleton created (00898708)
+15/03/2013 17:13:55 (Std) 	CEGUI::SchemeManager singleton created. (008930E8)
+15/03/2013 17:13:55 (Std) 	CEGUI::MouseCursor singleton created. (00895DC0)
+15/03/2013 17:13:55 (Std) 	CEGUI::GlobalEventSet singleton created. (0088F500)
+15/03/2013 17:13:55 (Std) 	CEGUI::AnimationManager singleton created (00898758)
+15/03/2013 17:13:55 (Std) 	CEGUI::WidgetLookManager singleton created. (0088A6D8)
+15/03/2013 17:13:55 (Std) 	CEGUI::WindowRendererManager singleton created (0088A690)
+15/03/2013 17:13:55 (Std) 	CEGUI::RenderEffectManager singleton created (0088F528)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'DefaultWindow' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'DefaultWindow' windows added. (008AD648)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'DragContainer' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'DragContainer' windows added. (00892AA0)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'ScrolledContainer' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'ScrolledContainer' windows added. (00892B48)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'ClippedContainer' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'ClippedContainer' windows added. (008AB4A0)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/Checkbox' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/Checkbox' windows added. (008AB548)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/PushButton' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/PushButton' windows added. (008AB5F0)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/RadioButton' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/RadioButton' windows added. (008AB698)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/Combobox' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/Combobox' windows added. (008AB740)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/ComboDropList' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/ComboDropList' windows added. (008AB7E8)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/Editbox' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/Editbox' windows added. (008A3708)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/FrameWindow' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/FrameWindow' windows added. (008A37B0)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/ItemEntry' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/ItemEntry' windows added. (008A3858)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/Listbox' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/Listbox' windows added. (008A3900)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/ListHeader' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/ListHeader' windows added. (008A39A8)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/ListHeaderSegment' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/ListHeaderSegment' windows added. (008A3A50)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/Menubar' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/Menubar' windows added. (008A3AF8)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/PopupMenu' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/PopupMenu' windows added. (008A3BA0)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/MenuItem' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/MenuItem' windows added. (008A3C48)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/MultiColumnList' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/MultiColumnList' windows added. (008A3CF0)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/MultiLineEditbox' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/MultiLineEditbox' windows added. (008A3D98)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/ProgressBar' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/ProgressBar' windows added. (008A3E40)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/ScrollablePane' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/ScrollablePane' windows added. (008A3EE8)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/Scrollbar' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/Scrollbar' windows added. (008A4038)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/Slider' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/Slider' windows added. (008A3F90)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/Spinner' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/Spinner' windows added. (008A4188)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/TabButton' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/TabButton' windows added. (008A40E0)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/TabControl' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/TabControl' windows added. (008A4230)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/Thumb' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/Thumb' windows added. (008A42D8)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/Titlebar' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/Titlebar' windows added. (008A4428)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/Tooltip' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/Tooltip' windows added. (008A4380)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/ItemListbox' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/ItemListbox' windows added. (008A44D0)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/GroupBox' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/GroupBox' windows added. (008A4578)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'CEGUI/Tree' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'CEGUI/Tree' windows added. (008A4620)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'HorizontalLayoutContainer' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'HorizontalLayoutContainer' windows added. (008A46C8)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'VerticalLayoutContainer' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'VerticalLayoutContainer' windows added. (008A4770)
+15/03/2013 17:13:55 (Std) 	Created WindowFactory for 'GridLayoutContainer' windows.
+15/03/2013 17:13:55 (Std) 	WindowFactory for 'GridLayoutContainer' windows added. (008A4818)
+15/03/2013 17:13:55 (Std) 	Window type alias named 'DefaultGUISheet' added for window type 'DefaultWindow'.
+15/03/2013 17:13:55 (Std) 	CEGUI::System singleton created. (008AD018)
+15/03/2013 17:13:55 (Std) 	---- CEGUI System initialisation completed ----
+15/03/2013 17:13:55 (Std) 	
+15/03/2013 17:13:55 (Std) 	Started creation of Scheme from XML specification:
+15/03/2013 17:13:55 (Std) 	---- CEGUI GUIScheme name: WindowsLookSkin
+15/03/2013 17:13:55 (Std) 	Started creation of Imageset from XML specification:
+15/03/2013 17:13:55 (Std) 	---- CEGUI Imageset name: WindowsLook
+15/03/2013 17:13:55 (Std) 	---- Source texture file: WindowsLook.tga in resource group: (Default)
+15/03/2013 17:13:55 (Std) 	===== Falagard 'root' element: look and feel parsing begins =====
+15/03/2013 17:13:55 (Std) 	===== Look and feel parsing completed =====
+15/03/2013 17:13:55 (Std) 	No window renderer factories specified for module 'CEGUIFalagardWRBase' - adding all available factories...
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/Button' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/Button' added. (008A4A10)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/Default' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/Default' added. (008A4E00)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/Editbox' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/Editbox' added. (008A4EA8)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/FrameWindow' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/FrameWindow' added. (008A4F50)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/ItemEntry' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/ItemEntry' added. (008A4D58)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/ListHeader' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/ListHeader' added. (008A4FF8)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/ListHeaderSegment' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/ListHeaderSegment' added. (008A50A0)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/Listbox' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/Listbox' added. (008A5148)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/Menubar' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/Menubar' added. (008A5298)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/MenuItem' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/MenuItem' added. (008A5340)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/MultiColumnList' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/MultiColumnList' added. (008A51F0)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/MultiLineEditbox' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/MultiLineEditbox' added. (008A53E8)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/PopupMenu' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/PopupMenu' added. (008A5490)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/ProgressBar' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/ProgressBar' added. (008A5538)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/ScrollablePane' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/ScrollablePane' added. (008A55E0)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/Scrollbar' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/Scrollbar' added. (07B60060)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/Slider' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/Slider' added. (07B60108)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/Static' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/Static' added. (07B60258)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/StaticImage' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/StaticImage' added. (07B60300)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/StaticText' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/StaticText' added. (07B601B0)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/SystemButton' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/SystemButton' added. (07B603A8)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/TabButton' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/TabButton' added. (07B60450)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/TabControl' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/TabControl' added. (07B604F8)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/Titlebar' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/Titlebar' added. (07B605A0)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/ToggleButton' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/ToggleButton' added. (07B60648)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/Tooltip' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/Tooltip' added. (07B606F0)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/ItemListbox' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/ItemListbox' added. (07B60840)
+15/03/2013 17:13:55 (Std) 	Created WindowRendererFactory for 'Falagard/Tree' WindowRenderers.
+15/03/2013 17:13:55 (Std) 	WindowRendererFactory 'Falagard/Tree' added. (07B60798)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/Button' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' Look'N'Feel 'WindowsLook/Button' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/Checkbox' using base type 'CEGUI/Checkbox', window renderer 'Falagard/ToggleButton' Look'N'Feel 'WindowsLook/Checkbox' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/IconButton' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' Look'N'Feel 'WindowsLook/IconButton' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/RadioButton' using base type 'CEGUI/RadioButton', window renderer 'Falagard/ToggleButton' Look'N'Feel 'WindowsLook/RadioButton' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/FrameWindow' using base type 'CEGUI/FrameWindow', window renderer 'Falagard/FrameWindow' Look'N'Feel 'WindowsLook/FrameWindow' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/Titlebar' using base type 'CEGUI/Titlebar', window renderer 'Falagard/Titlebar' Look'N'Feel 'WindowsLook/Titlebar' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/SystemButton' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' Look'N'Feel 'WindowsLook/SystemButton' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/Editbox' using base type 'CEGUI/Editbox', window renderer 'Falagard/Editbox' Look'N'Feel 'WindowsLook/Editbox' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/MultiLineEditbox' using base type 'CEGUI/MultiLineEditbox', window renderer 'Falagard/MultiLineEditbox' Look'N'Feel 'WindowsLook/MultiLineEditbox' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/Menubar' using base type 'CEGUI/Menubar', window renderer 'Falagard/Menubar' Look'N'Feel 'WindowsLook/Menubar' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/PopupMenu' using base type 'CEGUI/PopupMenu', window renderer 'Falagard/PopupMenu' Look'N'Feel 'WindowsLook/PopupMenu' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/MenuItem' using base type 'CEGUI/MenuItem', window renderer 'Falagard/MenuItem' Look'N'Feel 'WindowsLook/MenuItem' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/ProgressBar' using base type 'CEGUI/ProgressBar', window renderer 'Falagard/ProgressBar' Look'N'Feel 'WindowsLook/ProgressBar' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/VerticalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' Look'N'Feel 'WindowsLook/VerticalScrollbar' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/HorizontalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' Look'N'Feel 'WindowsLook/HorizontalScrollbar' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/VerticalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' Look'N'Feel 'WindowsLook/VerticalScrollbarThumb' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/HorizontalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' Look'N'Feel 'WindowsLook/HorizontalScrollbarThumb' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/TabButton' using base type 'CEGUI/TabButton', window renderer 'Falagard/TabButton' Look'N'Feel 'WindowsLook/TabButton' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/TabControl' using base type 'CEGUI/TabControl', window renderer 'Falagard/TabControl' Look'N'Feel 'WindowsLook/TabControl' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/TabContentPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'WindowsLook/TabContentPane' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/TabButtonPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'WindowsLook/TabButtonPane' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/ComboDropList' using base type 'CEGUI/ComboDropList', window renderer 'Falagard/Listbox' Look'N'Feel 'WindowsLook/ComboDropList' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/Combobox' using base type 'CEGUI/Combobox', window renderer 'Falagard/Default' Look'N'Feel 'WindowsLook/Combobox' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/Listbox' using base type 'CEGUI/Listbox', window renderer 'Falagard/Listbox' Look'N'Feel 'WindowsLook/Listbox' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/ListHeader' using base type 'CEGUI/ListHeader', window renderer 'Falagard/ListHeader' Look'N'Feel 'WindowsLook/ListHeader' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/ListHeaderSegment' using base type 'CEGUI/ListHeaderSegment', window renderer 'Falagard/ListHeaderSegment' Look'N'Feel 'WindowsLook/ListHeaderSegment' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/MultiColumnList' using base type 'CEGUI/MultiColumnList', window renderer 'Falagard/MultiColumnList' Look'N'Feel 'WindowsLook/MultiColumnList' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/Slider' using base type 'CEGUI/Slider', window renderer 'Falagard/Slider' Look'N'Feel 'WindowsLook/Slider' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/SliderThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' Look'N'Feel 'WindowsLook/SliderThumb' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/ScrollablePane' using base type 'CEGUI/ScrollablePane', window renderer 'Falagard/ScrollablePane' Look'N'Feel 'WindowsLook/ScrollablePane' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/Spinner' using base type 'CEGUI/Spinner', window renderer 'Falagard/Default' Look'N'Feel 'WindowsLook/Spinner' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/Tooltip' using base type 'CEGUI/Tooltip', window renderer 'Falagard/Tooltip' Look'N'Feel 'WindowsLook/Tooltip' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/Static' using base type 'DefaultWindow', window renderer 'Falagard/Static' Look'N'Feel 'WindowsLook/Static' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/StaticImage' using base type 'DefaultWindow', window renderer 'Falagard/StaticImage' Look'N'Feel 'WindowsLook/StaticImage' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/StaticText' using base type 'DefaultWindow', window renderer 'Falagard/StaticText' Look'N'Feel 'WindowsLook/StaticText' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/ItemListbox' using base type 'CEGUI/ItemListbox', window renderer 'Falagard/ItemListbox' Look'N'Feel 'WindowsLook/ItemListbox' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/ListboxItem' using base type 'CEGUI/ItemEntry', window renderer 'Falagard/ItemEntry' Look'N'Feel 'WindowsLook/ListboxItem' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'WindowsLook/GroupBox' using base type 'CEGUI/GroupBox', window renderer 'Falagard/Default' Look'N'Feel 'WindowsLook/GroupBox' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Started creation of Scheme from XML specification:
+15/03/2013 17:13:55 (Std) 	---- CEGUI GUIScheme name: OgreTray
+15/03/2013 17:13:55 (Std) 	Started creation of Imageset from XML specification:
+15/03/2013 17:13:55 (Std) 	---- CEGUI Imageset name: OgreTrayImages
+15/03/2013 17:13:55 (Std) 	---- Source texture file: OgreTrayImages.png in resource group: (Default)
+15/03/2013 17:13:55 (Std) 	Started creation of Font from XML specification:
+15/03/2013 17:13:55 (Std) 	---- CEGUI font name: DejaVuSans-10
+15/03/2013 17:13:55 (Std) 	----       Font type: FreeType
+15/03/2013 17:13:55 (Std) 	----     Source file: DejaVuSans.ttf in resource group: (Default)
+15/03/2013 17:13:55 (Std) 	---- Real point size: 10
+15/03/2013 17:13:55 (Std) 	===== Falagard 'root' element: look and feel parsing begins =====
+15/03/2013 17:13:55 (Std) 	===== Look and feel parsing completed =====
+15/03/2013 17:13:55 (Std) 	No window renderer factories specified for module 'CEGUIFalagardWRBase' - adding all available factories...
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/Button' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' Look'N'Feel 'OgreTray/PushButton' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/Titlebar' using base type 'CEGUI/Titlebar', window renderer 'Falagard/Titlebar' Look'N'Feel 'OgreTray/Titlebar' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/FrameWindow' using base type 'CEGUI/FrameWindow', window renderer 'Falagard/FrameWindow' Look'N'Feel 'OgreTray/FrameWindow' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/Thumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' Look'N'Feel 'OgreTray/Thumb' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/VerticalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' Look'N'Feel 'OgreTray/VerticalScrollbar' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/HorizontalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' Look'N'Feel 'OgreTray/HorizontalScrollbar' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/StaticText' using base type 'DefaultWindow', window renderer 'Falagard/StaticText' Look'N'Feel 'OgreTray/StaticText' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/Title' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/MiniTray' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/CaptionedStaticText' using base type 'DefaultWindow', window renderer 'Falagard/StaticText' Look'N'Feel 'OgreTray/CaptionedStaticText' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/ProgressBar' using base type 'CEGUI/ProgressBar', window renderer 'Falagard/ProgressBar' Look'N'Feel 'OgreTray/ProgressBar' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/Editbox' using base type 'CEGUI/Editbox', window renderer 'Falagard/Editbox' Look'N'Feel 'OgreTray/Editbox' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/MultiLineEditbox' using base type 'CEGUI/MultiLineEditbox', window renderer 'Falagard/MultiLineEditbox' Look'N'Feel 'OgreTray/MultiLineEditbox' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/Listbox' using base type 'CEGUI/Listbox', window renderer 'Falagard/Listbox' Look'N'Feel 'OgreTray/Listbox' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/ComboDropList' using base type 'CEGUI/ComboDropList', window renderer 'Falagard/Listbox' Look'N'Feel 'OgreTray/Listbox' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/Combobox' using base type 'CEGUI/Combobox', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/Combobox' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/DropDownMenu' using base type 'CEGUI/Combobox', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/DropDownMenu' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/Group' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/Group' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/Checkbox' using base type 'CEGUI/Checkbox', window renderer 'Falagard/ToggleButton' Look'N'Feel 'OgreTray/Checkbox' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/RadioButton' using base type 'CEGUI/RadioButton', window renderer 'Falagard/ToggleButton' Look'N'Feel 'OgreTray/RadioButton' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/Slider' using base type 'CEGUI/Slider', window renderer 'Falagard/Slider' Look'N'Feel 'OgreTray/Slider' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/StaticImage' using base type 'DefaultWindow', window renderer 'Falagard/StaticImage' Look'N'Feel 'OgreTray/StaticImage' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/AltStaticImage' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/AltStaticImage' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/Tooltip' using base type 'CEGUI/Tooltip', window renderer 'Falagard/Tooltip' Look'N'Feel 'OgreTray/Tooltip' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/ItemListbox' using base type 'CEGUI/ItemListbox', window renderer 'Falagard/ItemListbox' Look'N'Feel 'OgreTray/ItemListbox' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/ListboxItem' using base type 'CEGUI/ItemEntry', window renderer 'Falagard/ItemEntry' Look'N'Feel 'OgreTray/ListboxItem' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/Spinner' using base type 'CEGUI/Spinner', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/Spinner' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/ScrollablePane' using base type 'CEGUI/ScrollablePane', window renderer 'Falagard/ScrollablePane' Look'N'Feel 'OgreTray/ScrollablePane' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/ListHeaderSegment' using base type 'CEGUI/ListHeaderSegment', window renderer 'Falagard/ListHeaderSegment' Look'N'Feel 'OgreTray/ListHeaderSegment' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/ListHeader' using base type 'CEGUI/ListHeader', window renderer 'Falagard/ListHeader' Look'N'Feel 'OgreTray/ListHeader' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/MultiColumnList' using base type 'CEGUI/MultiColumnList', window renderer 'Falagard/MultiColumnList' Look'N'Feel 'OgreTray/MultiColumnList' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/MenuItem' using base type 'CEGUI/MenuItem', window renderer 'Falagard/MenuItem' Look'N'Feel 'OgreTray/MenuItem' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/Menubar' using base type 'CEGUI/Menubar', window renderer 'Falagard/Menubar' Look'N'Feel 'OgreTray/Menubar' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/PopupMenu' using base type 'CEGUI/PopupMenu', window renderer 'Falagard/PopupMenu' Look'N'Feel 'OgreTray/PopupMenu' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/TabButton' using base type 'CEGUI/TabButton', window renderer 'Falagard/TabButton' Look'N'Feel 'OgreTray/TabButton' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/TabButtonPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/TabButtonPane' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/TabContentPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/TabContentPane' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/TabControl' using base type 'CEGUI/TabControl', window renderer 'Falagard/TabControl' Look'N'Feel 'OgreTray/TabControl' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Creating falagard mapping for type 'OgreTray/BG' using base type 'DefaultWindow', window renderer 'Falagard/Default' Look'N'Feel 'OgreTray/BGTest' and RenderEffect ''. (0030CE88)
+15/03/2013 17:13:55 (Std) 	Started creation of Font from XML specification:
+15/03/2013 17:13:55 (Std) 	---- CEGUI font name: DejaVuSans-10
+15/03/2013 17:13:55 (Std) 	----       Font type: FreeType
+15/03/2013 17:13:55 (Std) 	----     Source file: DejaVuSans.ttf in resource group: (Default)
+15/03/2013 17:13:55 (Std) 	---- Real point size: 10
+15/03/2013 17:13:55 (Std) 	---- Returning existing instance of Font named 'DejaVuSans-10'.
+15/03/2013 17:13:56 (Std) 	Attempting to create Imageset 'DejaVuSans-10_auto_glyph_images_ ' with texture only.
+15/03/2013 17:13:56 (Error)	ScrolledContainerProperties::ChildExtentsArea property does not support being set.
+15/03/2013 17:13:56 (Error)	Attempt to set value of '116'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterial/TextWeight
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterial/TextWeight
+15/03/2013 17:13:56 (Error)	Attempt to set value of '145'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterial/TextDynFriction
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterial/TextDynFriction
+15/03/2013 17:13:56 (Error)	Attempt to set value of '147'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterial/TextStaticFriction
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterial/TextStaticFriction
+15/03/2013 17:13:56 (Error)	Attempt to set value of '178'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterial/TextRestitution
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterial/TextRestitution
+15/03/2013 17:13:56 (Error)	Attempt to set value of '309'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterial/TextMaterialProperties
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterial/TextMaterialProperties
+15/03/2013 17:13:56 (Error)	Attempt to set value of '258'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterial/TextBodyProperties
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterial/TextBodyProperties
+15/03/2013 17:13:56 (Error)	Attempt to set value of '172'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterial/TextLinearDamping
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterial/TextLinearDamping
+15/03/2013 17:13:56 (Error)	Attempt to set value of '178'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterial/TextAngularDamping
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterial/TextAngularDamping
+15/03/2013 17:13:56 (Error)	Attempt to set value of '119'  to read only property 'HorzExtent' on window: Root/Editor/FrameWorld/ButtonApply
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameWorld/ButtonApply
+15/03/2013 17:13:56 (Error)	Attempt to set value of '90'  to read only property 'HorzExtent' on window: Root/Editor/FrameThrow/TextForce
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameThrow/TextForce
+15/03/2013 17:13:56 (Error)	Attempt to set value of '94'  to read only property 'HorzExtent' on window: Root/Editor/FrameThrow/TextThrow
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameThrow/TextThrow
+15/03/2013 17:13:56 (Error)	Attempt to set value of '88'  to read only property 'HorzExtent' on window: Root/Editor/FrameThrow/TextPlace
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameThrow/TextPlace
+15/03/2013 17:13:56 (Error)	Attempt to set value of '129'  to read only property 'HorzExtent' on window: Root/Editor/FrameSelected/TextName
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameSelected/TextName
+15/03/2013 17:13:56 (Error)	Attempt to set value of '138'  to read only property 'HorzExtent' on window: Root/Editor/FrameRotation/TextRot
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameRotation/TextRot
+15/03/2013 17:13:56 (Error)	Attempt to set value of '159'  to read only property 'HorzExtent' on window: Root/FrameSave/TextFilename
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/FrameSave/TextFilename
+15/03/2013 17:13:56 (Error)	Attempt to set value of '159'  to read only property 'HorzExtent' on window: Root/FrameLoad/TextFilename
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/FrameLoad/TextFilename
+15/03/2013 17:13:56 (Error)	ScrolledContainerProperties::ChildExtentsArea property does not support being set.
+15/03/2013 17:13:56 (Error)	Attempt to set value of '96'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextWidth
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextWidth
+15/03/2013 17:13:56 (Error)	Attempt to set value of '108'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextHeight
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextHeight
+15/03/2013 17:13:56 (Error)	Attempt to set value of '147'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextDamping
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextDamping
+15/03/2013 17:13:56 (Error)	Attempt to set value of '170'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextStretching
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextStretching
+15/03/2013 17:13:56 (Error)	Attempt to set value of '134'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextBending
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextBending
+15/03/2013 17:13:56 (Error)	Attempt to set value of '142'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextPressure
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextPressure
+15/03/2013 17:13:56 (Error)	Attempt to set value of '122'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextFriction
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextFriction
+15/03/2013 17:13:56 (Error)	Attempt to set value of '123'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextDensity
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextDensity
+15/03/2013 17:13:56 (Error)	Attempt to set value of '141'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialCloth/TextThickness
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialCloth/TextThickness
+15/03/2013 17:13:56 (Error)	Attempt to set value of '83'  to read only property 'HorzExtent' on window: Root/Editor/FrameHang/TextHang
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameHang/TextHang
+15/03/2013 17:13:56 (Error)	Attempt to set value of '76'  to read only property 'HorzExtent' on window: Root/Editor/FrameHang/TextDrop
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameHang/TextDrop
+15/03/2013 17:13:56 (Error)	ScrolledContainerProperties::ChildExtentsArea property does not support being set.
+15/03/2013 17:13:56 (Error)	Attempt to set value of '132'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextLifetime
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextLifetime
+15/03/2013 17:13:56 (Error)	Attempt to set value of '297'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextEmitterProperties
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextEmitterProperties
+15/03/2013 17:13:56 (Error)	Attempt to set value of '140'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextRate
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextRate
+15/03/2013 17:13:56 (Error)	Attempt to set value of '102'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextSpeed
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextSpeed
+15/03/2013 17:13:56 (Error)	Attempt to set value of '134'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextRAngle
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextRAngle
+15/03/2013 17:13:56 (Error)	Attempt to set value of '160'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextRepulsion
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextRepulsion
+15/03/2013 17:13:56 (Error)	Attempt to set value of '105'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextDimensionX
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextDimensionX
+15/03/2013 17:13:56 (Error)	Attempt to set value of '103'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextDimensionY
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextDimensionY
+15/03/2013 17:13:56 (Error)	Attempt to set value of '255'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextEmitterProperties1
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextEmitterProperties1
+15/03/2013 17:13:56 (Error)	Attempt to set value of '164'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TexRestDensity
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TexRestDensity
+15/03/2013 17:13:56 (Error)	Attempt to set value of '144'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextViscosity
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextViscosity
+15/03/2013 17:13:56 (Error)	Attempt to set value of '141'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextStiffness
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextStiffness
+15/03/2013 17:13:56 (Error)	Attempt to set value of '147'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextDamping
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextDamping
+15/03/2013 17:13:56 (Error)	Attempt to set value of '159'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextDynFricDynShape
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextDynFricDynShape
+15/03/2013 17:13:56 (Error)	Attempt to set value of '155'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialWater/TextDynFricStatShape
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialWater/TextDynFricStatShape
+15/03/2013 17:13:56 (Error)	ScrolledContainerProperties::ChildExtentsArea property does not support being set.
+15/03/2013 17:13:56 (Error)	Attempt to set value of '90'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialForce/TextForce
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialForce/TextForce
+15/03/2013 17:13:56 (Error)	Attempt to set value of '267'  to read only property 'HorzExtent' on window: Root/Editor/FrameMaterialForce/ScrollPlane/ForceProperties
+15/03/2013 17:13:56 (Error)	Attempt to set value of '24.5181'  to read only property 'VertExtent' on window: Root/Editor/FrameMaterialForce/ScrollPlane/ForceProperties
+15/03/2013 17:13:56 (Std) 	---- Successfully completed loading of GUI layout from 'menu.layout' ----
