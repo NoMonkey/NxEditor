@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<Imageset Name="NxEditorButtons" Imagefile="NxEditorButtons.tga" NativeHorzRes="400" NativeVertRes="400" AutoScaled="true">
+	<Image Name="BoxNormal" XPos="0" YPos="0" Width="200" Height="200" />
+	<Image Name="BoxHover" XPos="200" YPos="0" Width="200" Height="200" />
+	<Image Name="BoxPush" XPos="0" YPos="200" Width="200" Height="200" />
+	<Image Name="BoxDisabled" XPos="200" YPos="200" Width="200" Height="200" />
+</Imageset>

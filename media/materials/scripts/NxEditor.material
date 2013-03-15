@@ -1,0 +1,466 @@
+material splashScreenMaterial
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass splashScreenMaterial
+        {
+            ambient 1.0 1.0 1.0 1.0
+            diffuse 0.0 0.0 0.0 1.0
+            specular 0.0 0.0 0.0 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture SplashScreen.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material NxEditor/Floor
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture nxogre.floor.png
+				scale 0.02 0.02
+			}
+		}
+	}
+}
+
+//cube ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ CUBE
+
+material NxEditor/Select/Cube
+{
+   technique
+   {
+      pass
+      {
+         lighting on
+		 texture nxogre.cube.png
+ 
+         ambient 0.1 0.1 0.3 1
+         diffuse 0.2 0.2 0.5 1
+         emissive 0 0 0 1
+      }
+   }
+}
+
+material NxEditor/Preview/Cube
+{
+   technique
+   {
+      pass
+      {
+         lighting on
+		 texture nxogre.cube.png
+ 
+         ambient 0.1 0.3 0.1 1
+         diffuse 0.2 0.5 0.2 1
+         emissive 0 0 0 1
+      }
+   }
+}
+
+material NxEditor/Normal/Cube
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture nxogre.cube.png
+				scale 1 1
+			}
+		}
+	}
+}
+
+//Barrel ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ BARREL
+
+material NxEditor/Select/Barrel
+{
+   technique
+   {
+      pass
+      {
+         lighting on
+		 texture nxogre.barrel.png
+ 
+         ambient 0.1 0.1 0.3 1
+         diffuse 0.2 0.2 0.5 1
+         emissive 0 0 0 1
+      }
+   }
+}
+
+material NxEditor/Preview/Barrel
+{
+   technique
+   {
+      pass
+      {
+         lighting on
+		 texture nxogre.barrel.png
+ 
+         ambient 0.1 0.3 0.1 1
+         diffuse 0.2 0.5 0.2 1
+         emissive 0 0 0 1
+      }
+   }
+}
+
+material NxEditor/Normal/Barrel
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture nxogre.barrel.png
+				scale 1 1
+			}
+		}
+	}
+}
+
+
+//Orb ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ Orb
+
+material NxEditor/Select/Orb
+{
+   technique
+   {
+      pass
+      {
+         lighting on
+		 texture nxogre.orb.png
+ 
+         ambient 0.1 0.1 0.3 1
+         diffuse 0.2 0.2 0.5 1
+         emissive 0 0 0 1
+      }
+   }
+}
+
+material NxEditor/Preview/Orb
+{
+   technique
+   {
+      pass
+      {
+         lighting on
+		 texture nxogre.orb.png
+ 
+         ambient 0.1 0.3 0.1 1
+         diffuse 0.2 0.5 0.2 1
+         emissive 0 0 0 1
+      }
+   }
+}
+
+material NxEditor/Normal/Orb
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture nxogre.orb.png
+				scale 1 1
+			}
+		}
+	}
+}
+
+//Flag ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ Flag
+
+material NxEditor/Normal/Flag/Olli
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				cull_hardware none
+				texture Carpet.jpg
+			}
+		}
+	}
+}
+
+// Towerblock
+
+material NxEditor/Normal/Towerblock 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass towerblockMaterial
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture towerblock.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material NxEditor/Select/Towerblock 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass towerblockMaterial
+        {
+            ambient 0.1 0.1 0.3 1
+			diffuse 0.2 0.2 0.5 1
+			emissive 0 0 0 1
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture towerblock.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+
+material NxEditor/Preview/Towerblock 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass towerblockMaterial
+        {
+            ambient 0.1 0.3 0.1 1
+			diffuse 0.2 0.5 0.2 1
+			emissive 0 0 0 1
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture towerblock.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// Globe ------------------------------------------------
+
+material NxEditor/Normal/Sphere 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass GlobeMaterial
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture globeTexture.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material NxEditor/Preview/Sphere 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass GlobeMaterial
+        {
+            ambient 0.1 0.3 0.1 1
+			diffuse 0.2 0.5 0.2 1
+			emissive 0 0 0 1
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture globeTexture.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+material NxEditor/Select/Sphere 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass GlobeMaterial
+        {
+            ambient 0.1 0.1 0.3 1
+			diffuse 0.2 0.2 0.5 1
+			emissive 0 0 0 1
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture globeTexture.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}

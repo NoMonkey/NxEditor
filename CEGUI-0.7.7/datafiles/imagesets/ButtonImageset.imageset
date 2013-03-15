@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<Imageset Name="ButtonImageset" Imagefile="ButtonImages.tga" NativeHorzRes="200" NativeVertRes="100" AutoScaled="true">
+	<Image Name="Box" XPos="0" YPos="0" Width="100" Height="100" />
+</Imageset>

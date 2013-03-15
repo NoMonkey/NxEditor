@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="OgreTray/FrameWindow" Name="Root/Menu" >
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="Main Menu" />
+            <Property Name="CaptionFont" Value="DejaVuSans-10" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="UnifiedMinSize" Value="{{0.1,0},{0.1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.33,0},{0.25,0},{0.66,0},{0.75,0}}" />
+            <Property Name="DragMovingEnabled" Value="False" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Property Name="EWSizingCursorImage" Value="set:WindowsLook image:MouseEsWeCursor" />
+            <Property Name="NSSizingCursorImage" Value="set:WindowsLook image:MouseNoSoCursor" />
+            <Property Name="NESWSizingCursorImage" Value="set:WindowsLook image:MouseNeSwCursor" />
+            <Property Name="NWSESizingCursorImage" Value="set:WindowsLook image:MouseNwSeCursor" />
+            <Window Type="OgreTray/Button" Name="Root/Menu/ButtonNew" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="Text" Value="New Scene" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.1,0},{0.75,0},{0.3,0}}" />
+            </Window>
+            <Window Type="OgreTray/Button" Name="Root/Menu/ButtonLoad" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="Text" Value="Load Scene" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.3,0},{0.75,0},{0.5,0}}" />
+            </Window>
+            <Window Type="OgreTray/Button" Name="Root/Menu/ButtonExit" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="Text" Value="Exit" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.7,0},{0.75,0},{0.9,0}}" />
+            </Window>
+            <Window Type="OgreTray/Button" Name="Root/Menu/ButtonSave" >
+                <Property Name="Text" Value="Save Scene" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.5,0},{0.75,0},{0.7,0}}" />
+            </Window>
+        </Window>
+        <Window Type="OgreTray/TabControl" Name="Root/Editor/TabControlCreate" >
+            <Property Name="Visible" Value="False" />
+            <Property Name="TabHeight" Value="{0,28.6803}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.8,0},{0.5,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="Root/Editor/TabControlCreate/TabRigid" >
+                <Property Name="Text" Value="Rigid bodies" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="OgreTray/Button" Name="Root/Editor/TabControlCreate/TabRigid/ButtonBox" >
+                    <Property Name="Text" Value="Cube" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.05,0},{0.2,0},{0.35,0}}" />
+                </Window>
+                <Window Type="OgreTray/Button" Name="Root/Editor/TabControlCreate/TabRigid/ButtonBarrel" >
+                    <Property Name="Text" >Barrel
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.35,0},{0.2,0},{0.65,0}}" />
+                </Window>
+                <Window Type="OgreTray/Button" Name="Root/Editor/TabControlCreate/TabRigid/ButtonSphere" >
+                    <Property Name="Text" Value="Sphere" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.65,0},{0.2,0},{0.95,0}}" />
+                </Window>
+                <Window Type="OgreTray/Button" Name="Root/Editor/TabControlCreate/TabRigid/ButtonOrb" >
+                    <Property Name="Text" Value="Orb" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.05,0},{0.4,0},{0.35,0}}" />
+                </Window>
+                <Window Type="OgreTray/Button" Name="Root/Editor/TabControlCreate/TabRigid/ButtonBlock" >
+                    <Property Name="Text" Value="Block" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.35,0},{0.4,0},{0.65,0}}" />
+                </Window>
+                <Window Type="OgreTray/Button" Name="Root/Editor/TabControlCreate/TabRigid/ButtonTower" >
+                    <Property Name="Text" Value="Tower" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.65,0},{0.4,0},{0.95,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/Editor/TabControlCreate/TabSoft" >
+                <Property Name="Text" Value="Cloths" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="OgreTray/Button" Name="Root/Editor/TabControlCreate/TabSoft/ButtonCVFlag" >
+                    <Property Name="Text" Value="CV Flag" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,10},{0.2,0},{0.3,0}}" />
+                </Window>
+                <Window Type="OgreTray/Button" Name="Root/Editor/TabControlCreate/TabSoft/ButtonOlliFlag" >
+                    <Property Name="Text" Value="Carpet" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.35,0},{0.2,0},{0.6,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/Editor/TabControlCreate/TabFluid" >
+                <Property Name="Text" Value="Fluids" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="OgreTray/Button" Name="Root/Editor/TabControlCreate/TabFluid/ButtonWater" >
+                    <Property Name="Text" Value="Slime" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.1,0},{0.2,0},{0.4,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/Editor/TabControlCreate/TabForce" >
+                <Property Name="Text" Value="Force" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="OgreTray/Button" Name="Root/Editor/TabControlCreate/TabForce/ButtonPush" >
+                    <Property Name="Text" Value="Push" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.1,0},{0.2,0},{0.4,0}}" />
+                </Window>
+                <Window Type="OgreTray/Button" Name="Root/Editor/TabControlCreate/TabForce/ButtonPull" >
+                    <Property Name="Text" Value="Pull" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.45,0},{0.2,0},{0.75,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="OgreTray/FrameWindow" Name="Root/Editor/FrameMaterial" >
+            <Property Name="Visible" Value="False" />
+            <Property Name="CaptionFont" Value="DejaVuSans-10" />
+            <Property Name="TitlebarEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.614844,0},{0.8,0},{1,0},{1,0}}" />
+            <Property Name="DragMovingEnabled" Value="False" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Window Type="OgreTray/ScrollablePane" Name="Root/Editor/FrameMaterial/ScrollPlane" >
+                <Property Name="ContentArea" Value="l:-1 t:0 r:562 b:315" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ContentArea" Value="l:-1 t:0 r:562 b:315" />
+                    <Property Name="ChildExtentsArea" Value="l:-1 t:0 r:562 b:315" />
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterial/TextWeight" >
+                        <Property Name="Text" Value="Weight" />
+                        <Property Name="HorzExtent" Value="116" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1.4,0},{0.28,0},{1.65,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterial/EditWeight" >
+                        <Property Name="Text" Value="40" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.28,0},{1.4,0},{0.4,0},{1.65,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterial/TextDynFriction" >
+                        <Property Name="Text" Value="Dyn. fric." />
+                        <Property Name="HorzExtent" Value="145" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.25,0},{0.78,0},{0.5,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterial/EditDynFriction" >
+                        <Property Name="Text" Value="0.9" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.78,0},{0.25,0},{0.9,0},{0.5,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterial/SliderDynFriction" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.5,0},{0.9,0},{0.65,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterial/SliderWeight" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="100" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1.65,0},{0.4,0},{1.8,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterial/TextStaticFriction" >
+                        <Property Name="Text" Value="Stat. fric." />
+                        <Property Name="HorzExtent" Value="147" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.25,0},{0.28,0},{0.5,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterial/EditStaticFriction" >
+                        <Property Name="Text" Value="0.5" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.28,0},{0.25,0},{0.4,0},{0.5,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterial/TextRestitution" >
+                        <Property Name="Text" Value="Restitution" />
+                        <Property Name="HorzExtent" Value="178" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.001352,0},{0.7,0},{0.28,0},{0.95,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterial/EditRestitution" >
+                        <Property Name="Text" Value="0.1" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.28,0},{0.7,0},{0.4,0},{0.95,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterial/SliderRestitution" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.95,0},{0.4,0},{1.05,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterial/SliderStaticFriction" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{0.4,0},{0.65,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterial/TextMaterialProperties" >
+                        <Property Name="Text" Value="Material Properties" />
+                        <Property Name="HorzExtent" Value="309" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.9,0},{0.2,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterial/TextBodyProperties" >
+                        <Property Name="Text" Value="Body Properties" />
+                        <Property Name="HorzExtent" Value="258" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1.1,0},{0.9,0},{1.35,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterial/TextLinearDamping" >
+                        <Property Name="Text" Value="Lin. Damp." />
+                        <Property Name="HorzExtent" Value="172" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{1.4,0},{0.78,0},{1.65,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterial/EditLinearDamping" >
+                        <Property Name="Text" Value="0.5" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.78,0},{1.4,0},{0.9,0},{1.65,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterial/SliderLinearDamping" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{1.65,0},{0.9,0},{1.8,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterial/TextAngularDamping" >
+                        <Property Name="Text" Value="Ang.Damp." />
+                        <Property Name="HorzExtent" Value="178" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1.85,0},{0.28,0},{2.1,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterial/EditAngularDamping" >
+                        <Property Name="Text" Value="0.5" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.28,0},{1.85,0},{0.4,0},{2.1,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterial/SliderAngularDamping" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{2.1,0},{0.4,0},{2.25,0}}" />
+                    </Window>
+                </AutoWindow>
+            </Window>
+        </Window>
+        <Window Type="OgreTray/StaticText" Name="Root/TextFPS" >
+            <Property Name="Visible" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0,0},{1,0},{0.07,0}}" />
+        </Window>
+        <Window Type="OgreTray/FrameWindow" Name="Root/Editor/FrameWorld" >
+            <Property Name="Text" Value="World Settings" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="CaptionFont" Value="DejaVuSans-10" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.07,0},{1,0},{0.35,0}}" />
+            <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameWorld/ButtonApply" >
+                <Property Name="Text" Value="Gravity" />
+                <Property Name="HorzExtent" Value="119" />
+                <Property Name="VertExtent" Value="24.5181" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.35,0},{0.2,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="OgreTray/Button" Name="Root/Editor/FrameWorld/ButtonHardware" >
+                <Property Name="Text" Value="Apply" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.25,0},{0.75,0},{0.45,0}}" />
+            </Window>
+            <Window Type="OgreTray/Button" Name="Root/Editor/FrameWorld/ButtonPause" >
+                <Property Name="Text" Value="Pause" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.5,0},{0.75,0},{0.7,0}}" />
+            </Window>
+            <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameWorld/EditGX" >
+                <Property Name="Text" Value="0" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.389062,0},{0,0},{0.539063,0},{0.2,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameWorld/EditGY" >
+                <Property Name="Text" Value="-9" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.578125,0},{0,0},{0.728125,0},{0.2,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameWorld/EditGZ" >
+                <Property Name="Text" Value="0" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.767187,0},{0,0},{0.917188,0},{0.2,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="OgreTray/Button" Name="Root/Editor/FrameWorld/ButtonVD" >
+                <Property Name="Text" Value="Visual Debugger" />
+                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.75,0},{0.9,0},{0.95,0}}" />
+            </Window>
+        </Window>
+        <Window Type="OgreTray/FrameWindow" Name="Root/Editor/FrameThrow" >
+            <Property Name="Visible" Value="False" />
+            <Property Name="CaptionFont" Value="DejaVuSans-10" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.8,0},{0.614844,0},{1,0}}" />
+            <Property Name="DragMovingEnabled" Value="False" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Window Type="OgreTray/RadioButton" Name="Root/Editor/FrameThrow/RadioThrow" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.2,0},{0.3,0},{0.4,0}}" />
+            </Window>
+            <Window Type="OgreTray/RadioButton" Name="Root/Editor/FrameThrow/RadioPlace" >
+                <Property Name="Selected" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.7,0},{0.3,0},{0.9,0}}" />
+            </Window>
+            <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameThrow/TextForce" >
+                <Property Name="Text" Value="Force" />
+                <Property Name="HorzExtent" Value="90" />
+                <Property Name="VertExtent" Value="24.5181" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.00438411,0},{0.4,0},{0.895616,0},{0.6,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameThrow/EditForce" >
+                <Property Name="Text" Value="100" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.548643,0},{0.4,0},{1,0},{0.6,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameThrow/TextThrow" >
+                <Property Name="Text" Value="throw" />
+                <Property Name="HorzExtent" Value="94" />
+                <Property Name="VertExtent" Value="24.5181" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.2,0},{1,0},{0.4,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameThrow/TextPlace" >
+                <Property Name="Text" Value="place" />
+                <Property Name="HorzExtent" Value="88" />
+                <Property Name="VertExtent" Value="24.5181" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.7,0},{1,0},{0.9,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="OgreTray/FrameWindow" Name="Root/Editor/FrameSelected" >
+            <Property Name="Text" Value="Selected Object" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="CaptionFont" Value="DejaVuSans-10" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.35,0},{1,0},{0.55,0}}" />
+            <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameSelected/TextName" >
+                <Property Name="Text" Value="Nothing" />
+                <Property Name="HorzExtent" Value="129" />
+                <Property Name="VertExtent" Value="24.5181" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.05,0},{0.85,0},{0.3,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="OgreTray/Button" Name="Root/Editor/FrameSelected/ButtonDelete" >
+                <Property Name="Text" Value="Delete" />
+                <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.4,0},{0.8,0},{0.7,0}}" />
+            </Window>
+        </Window>
+        <Window Type="OgreTray/FrameWindow" Name="Root/Editor/FrameRotation" >
+            <Property Name="Text" Value="Rotation" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="CaptionFont" Value="DejaVuSans-10" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.55,0},{1,0},{0.8,0}}" />
+            <Property Name="DragMovingEnabled" Value="False" />
+            <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameRotation/TextRot" >
+                <Property Name="Text" Value="Rotation" />
+                <Property Name="HorzExtent" Value="138" />
+                <Property Name="VertExtent" Value="24.5181" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01875,0},{0.05,0},{0.428646,0},{0.25,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameRotation/EditX" >
+                <Property Name="Text" Value="0" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.439062,0},{0.05,0},{0.589063,0},{0.25,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameRotation/EditY" >
+                <Property Name="Text" Value="0" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.628125,0},{0.05,0},{0.778125,0},{0.25,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameRotation/EditZ" >
+                <Property Name="Text" Value="0" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.817187,0},{0.05,0},{0.967188,0},{0.25,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="OgreTray/Button" Name="Root/Editor/FrameRotation/ButtonApply" >
+                <Property Name="Text" Value="Apply" />
+                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.46,0},{0.45,0},{0.855,0}}" />
+            </Window>
+            <Window Type="OgreTray/Button" Name="Root/Editor/FrameRotation/ButtonReset" >
+                <Property Name="Text" Value="Reset" />
+                <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0.46,0},{0.95,0},{0.86,0}}" />
+            </Window>
+        </Window>
+        <Window Type="OgreTray/FrameWindow" Name="Root/FrameSave" >
+            <Property Name="Text" Value="Save Scene" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="CaptionFont" Value="DejaVuSans-10" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{0.33,0},{0.75,0}}" />
+            <Property Name="DragMovingEnabled" Value="False" />
+            <Window Type="OgreTray/Button" Name="Root/FrameSave/ButtonSave" >
+                <Property Name="Text" Value="Save" />
+                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.55,0},{0.4,0},{0.9,0}}" />
+            </Window>
+            <Window Type="OgreTray/Button" Name="Root/FrameSave/ButtonCancel" >
+                <Property Name="Text" Value="Cancel" />
+                <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0.55,0},{0.9,0},{0.9,0}}" />
+            </Window>
+            <Window Type="OgreTray/Editbox" Name="Root/FrameSave/EditFilename" >
+                <Property Name="Text" Value="newScene" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{0.9,0},{0.3,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="OgreTray/StaticText" Name="Root/FrameSave/TextFilename" >
+                <Property Name="Text" Value="Filename:" />
+                <Property Name="HorzExtent" Value="159" />
+                <Property Name="VertExtent" Value="24.5181" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0,0},{0.4,0},{0.3,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="OgreTray/FrameWindow" Name="Root/FrameLoad" >
+            <Property Name="Text" Value="Load Scene" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="CaptionFont" Value="DejaVuSans-10" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.25,0},{0.33,0},{0.5,0}}" />
+            <Property Name="DragMovingEnabled" Value="False" />
+            <Window Type="OgreTray/Button" Name="Root/FrameLoad/ButtonLoad" >
+                <Property Name="Text" Value="Load" />
+                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.55,0},{0.4,0},{0.9,0}}" />
+            </Window>
+            <Window Type="OgreTray/Button" Name="Root/FrameLoad/ButtonCancel" >
+                <Property Name="Text" Value="Cancel" />
+                <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0.55,0},{0.9,0},{0.9,0}}" />
+            </Window>
+            <Window Type="OgreTray/StaticText" Name="Root/FrameLoad/TextFilename" >
+                <Property Name="Text" Value="Filename:" />
+                <Property Name="HorzExtent" Value="159" />
+                <Property Name="VertExtent" Value="24.5181" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0,0},{0.4,0},{0.3,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="OgreTray/Combobox" Name="Root/FrameLoad/ComboFilename" >
+                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{0.9,0},{0.983544,0}}" />
+                <Property Name="MaxEditTextLength" Value="1073741823" />
+            </Window>
+        </Window>
+        <Window Type="OgreTray/FrameWindow" Name="Root/Editor/FrameMaterialCloth" >
+            <Property Name="Visible" Value="False" />
+            <Property Name="CaptionFont" Value="DejaVuSans-10" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.614844,0},{0.8,0},{1,0},{1,0}}" />
+            <Window Type="OgreTray/ScrollablePane" Name="Root/Editor/FrameMaterialCloth/ScrollPlane" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:625 b:287" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:625 b:287" />
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:625 b:287" />
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialCloth/TextWidth" >
+                        <Property Name="Text" Value="Width" />
+                        <Property Name="HorzExtent" Value="96" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.45,0},{0.25,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialCloth/SliderDamping" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.55,0},{0.45,0},{0.7,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialCloth/TextHeight" >
+                        <Property Name="Text" >Height
+</Property>
+                        <Property Name="HorzExtent" Value="108" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.55,0},{0,0},{1,0},{0.25,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialCloth/EditDamping" >
+                        <Property Name="Text" >0.5
+</Property>
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.3,0},{0.45,0},{0.55,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialCloth/TextDamping" >
+                        <Property Name="Text" Value="Damping" />
+                        <Property Name="HorzExtent" Value="147" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.3,0},{0.45,0},{0.55,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialCloth/EditStretching" >
+                        <Property Name="Text" Value="1" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.82,0},{0.3,0},{0.97,0},{0.55,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialCloth/TextStretching" >
+                        <Property Name="Text" Value="Stretching" />
+                        <Property Name="Tooltip" Value="Stretching stiffness defines the strength of the constraint along a triangle edge that maintains the distance between the edge end points. A value of one will produce a cloth that is very difficult to stretch, such as denim pants, while a value near zero will produce one that can stretch easily, like nylon stockings (a value too near zero is not recommended for a stable simulation; zero is not allowed)." />
+                        <Property Name="HorzExtent" Value="170" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.55,0},{0.3,0},{1,0},{0.55,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialCloth/SliderStretching" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.55,0},{0.55,0},{0.97,0},{0.7,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialCloth/EditBending" >
+                        <Property Name="Text" Value="1" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.75,0},{0.45,0},{1,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialCloth/TextBending" >
+                        <Property Name="Text" Value="Bending" />
+                        <Property Name="HorzExtent" Value="134" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.75,0},{0.45,0},{1,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialCloth/SliderBending" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1,0},{0.45,0},{1.15,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialCloth/EditPressure" >
+                        <Property Name="Text" Value="1" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.82,0},{0.75,0},{0.97,0},{1,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialCloth/TextPressure" >
+                        <Property Name="Text" Value="Pressure" />
+                        <Property Name="HorzExtent" Value="142" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.55,0},{0.75,0},{1,0},{1,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialCloth/SliderPressure" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.55,0},{1,0},{0.97,0},{1.15,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialCloth/EditFriction" >
+                        <Property Name="Text" Value="0.5" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.3,0},{1.2,0},{0.45,0},{1.45,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialCloth/TextFriction" >
+                        <Property Name="Text" Value="Friction" />
+                        <Property Name="HorzExtent" Value="122" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1.2,0},{0.45,0},{1.45,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialCloth/SliderFriction" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1.45,0},{0.45,0},{1.6,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialCloth/EditDensity" >
+                        <Property Name="Text" >0.2
+</Property>
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.82,0},{1.2,0},{0.97,0},{1.45,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialCloth/TextDensity" >
+                        <Property Name="Text" Value="Density" />
+                        <Property Name="HorzExtent" Value="123" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.55,0},{1.2,0},{1,0},{1.45,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialCloth/SliderDensity" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="100" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.55,0},{1.45,0},{0.97,0},{1.6,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialCloth/EditWidth" >
+                        <Property Name="Text" >8
+</Property>
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0,0},{0.45,0},{0.25,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialCloth/EditHeight" >
+                        <Property Name="Text" Value="4" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.82,0},{0,0},{0.97,0},{0.25,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialCloth/EditThickness" >
+                        <Property Name="Text" Value="0.4" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.3,0},{1.65,0},{0.45,0},{1.9,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialCloth/TextThickness" >
+                        <Property Name="Text" Value="Thickess" />
+                        <Property Name="HorzExtent" Value="141" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1.65,0},{0.45,0},{1.9,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialCloth/SliderThickness" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1.9,0},{0.45,0},{2.05,0}}" />
+                    </Window>
+                </AutoWindow>
+            </Window>
+        </Window>
+        <Window Type="OgreTray/FrameWindow" Name="Root/Editor/FrameHang" >
+            <Property Name="Visible" Value="False" />
+            <Property Name="CaptionFont" Value="DejaVuSans-10" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.8,0},{0.614844,0},{1,0}}" />
+            <Property Name="DragMovingEnabled" Value="False" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Window Type="OgreTray/RadioButton" Name="Root/Editor/FrameHang/RadioHang" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.2,0},{0.3,0},{0.4,0}}" />
+            </Window>
+            <Window Type="OgreTray/RadioButton" Name="Root/Editor/FrameHang/RadioDrop" >
+                <Property Name="Selected" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.7,0},{0.3,0},{0.9,0}}" />
+            </Window>
+            <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameHang/TextHang" >
+                <Property Name="Text" Value="hang" />
+                <Property Name="HorzExtent" Value="83" />
+                <Property Name="VertExtent" Value="24.5181" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.2,0},{1,0},{0.4,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameHang/TextDrop" >
+                <Property Name="Text" >drop
+</Property>
+                <Property Name="HorzExtent" Value="76" />
+                <Property Name="VertExtent" Value="24.5181" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.7,0},{1,0},{0.9,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="OgreTray/FrameWindow" Name="Root/Editor/FrameMaterialWater" >
+            <Property Name="Visible" Value="False" />
+            <Property Name="CaptionFont" Value="DejaVuSans-10" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.614844,0},{0.8,0},{1,0},{1,0}}" />
+            <Window Type="OgreTray/ScrollablePane" Name="Root/Editor/FrameMaterialWater/ScrollPlane" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:562 b:504" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:562 b:504" />
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:562 b:504" />
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialWater/EditLifetime" >
+                        <Property Name="Text" >15
+</Property>
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.28,0},{0.25,0},{0.4,0},{0.5,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialWater/TextLifetime" >
+                        <Property Name="Text" Value="Lifetime" />
+                        <Property Name="HorzExtent" Value="132" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.25,0},{0.28,0},{0.5,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialWater/SliderLifetime" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="30" />
+                        <Property Name="ClickStepSize" Value="1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{0.4,0},{0.65,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialWater/TextEmitterProperties" >
+                        <Property Name="Text" Value="Emitter Properties" />
+                        <Property Name="HorzExtent" Value="297" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.9,0},{0.2,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialWater/EditRate" >
+                        <Property Name="Text" >250
+</Property>
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.78,0},{0.25,0},{0.9,0},{0.5,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialWater/TextRate" >
+                        <Property Name="Text" Value="Flowrate" />
+                        <Property Name="HorzExtent" Value="140" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.25,0},{0.78,0},{0.5,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialWater/SliderRate" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="300" />
+                        <Property Name="ClickStepSize" Value="1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.5,0},{0.9,0},{0.65,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialWater/EditSpeed" >
+                        <Property Name="Text" >1
+</Property>
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.28,0},{0.7,0},{0.4,0},{0.95,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialWater/TextSpeed" >
+                        <Property Name="Text" Value="Speed" />
+                        <Property Name="HorzExtent" Value="102" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.7,0},{0.28,0},{0.95,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialWater/SliderSpeed" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="30" />
+                        <Property Name="ClickStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.95,0},{0.4,0},{1.1,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialWater/EditRAngle" >
+                        <Property Name="Text" >0.4
+
+</Property>
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.78,0},{0.7,0},{0.9,0},{0.95,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialWater/TextRAngle" >
+                        <Property Name="Text" Value="R. Angle" />
+                        <Property Name="HorzExtent" Value="134" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.7,0},{0.78,0},{0.95,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialWater/SliderRAngle" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="6.28" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.95,0},{0.9,0},{1.1,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialWater/EditRepulsion" >
+                        <Property Name="Text" Value="0.8" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.28,0},{1.15,0},{0.4,0},{1.4,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialWater/TextRepulsion" >
+                        <Property Name="Text" Value="Repulsion" />
+                        <Property Name="HorzExtent" Value="160" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1.15,0},{0.28,0},{1.4,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialWater/SliderRepulsion" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1.4,0},{0.4,0},{1.55,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialWater/EditDimensionX" >
+                        <Property Name="Text" >1
+</Property>
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.78,0},{1.15,0},{0.9,0},{1.4,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialWater/TextDimensionX" >
+                        <Property Name="Text" Value="Dim. X" />
+                        <Property Name="HorzExtent" Value="105" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{1.15,0},{0.78,0},{1.4,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialWater/SliderDimensionX" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="10" />
+                        <Property Name="ClickStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{1.4,0},{0.9,0},{1.55,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialWater/EditDimensionY" >
+                        <Property Name="Text" >1
+</Property>
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.28,0},{1.6,0},{0.4,0},{1.85,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialWater/TextDimensionY" >
+                        <Property Name="Text" Value="Dim. Y" />
+                        <Property Name="HorzExtent" Value="103" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1.6,0},{0.28,0},{1.85,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialWater/SliderDimensionY" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="10" />
+                        <Property Name="ClickStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1.85,0},{0.4,0},{2,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialWater/TextEmitterProperties1" >
+                        <Property Name="Text" Value="Fluid Properties" />
+                        <Property Name="HorzExtent" Value="255" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{2.05,0},{0.9,0},{2.25,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialWater/EditRestDensity" >
+                        <Property Name="Text" >1000
+</Property>
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.28,0},{2.3,0},{0.4,0},{2.55,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialWater/TexRestDensity" >
+                        <Property Name="Text" Value="R. Density" />
+                        <Property Name="HorzExtent" Value="164" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{2.3,0},{0.28,0},{2.55,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialWater/SliderRestDensity" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="5000" />
+                        <Property Name="ClickStepSize" Value="10" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{2.55,0},{0.4,0},{2.7,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialWater/EditViscosity" >
+                        <Property Name="Text" >10
+</Property>
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.78,0},{2.3,0},{0.9,0},{2.55,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialWater/TextViscosity" >
+                        <Property Name="Text" Value="Viscosity" />
+                        <Property Name="HorzExtent" Value="144" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{2.3,0},{0.78,0},{2.55,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialWater/SliderViscosity" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="100" />
+                        <Property Name="ClickStepSize" Value="1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{2.55,0},{0.9,0},{2.7,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialWater/EditStiffness" >
+                        <Property Name="Text" >50
+</Property>
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.28,0},{2.75,0},{0.4,0},{3,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialWater/TextStiffness" >
+                        <Property Name="Text" Value="Stiffness" />
+                        <Property Name="HorzExtent" Value="141" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{2.75,0},{0.28,0},{3,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialWater/SliderStiffness" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="300" />
+                        <Property Name="ClickStepSize" Value="1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{3,0},{0.4,0},{3.15,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialWater/EditDamping" >
+                        <Property Name="Text" >0.3
+</Property>
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.78,0},{2.75,0},{0.9,0},{3,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialWater/TextDamping" >
+                        <Property Name="Text" Value="Damping" />
+                        <Property Name="HorzExtent" Value="147" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{2.75,0},{0.78,0},{3,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialWater/SliderDamping" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{3,0},{0.9,0},{3.15,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialWater/EditDynFricDynShape" >
+                        <Property Name="Text" >0.3
+</Property>
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.28,0},{3.2,0},{0.4,0},{3.45,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialWater/TextDynFricDynShape" >
+                        <Property Name="Text" Value="d.f. on d.s" />
+                        <Property Name="HorzExtent" Value="159" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{3.2,0},{0.28,0},{3.45,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialWater/SliderDynFricDynShape" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="1" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{3.45,0},{0.4,0},{3.6,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialWater/EditDynFricStatShape" >
+                        <Property Name="Text" >0.3
+
+</Property>
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.78,0},{3.2,0},{0.9,0},{3.45,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialWater/TextDynFricStatShape" >
+                        <Property Name="Text" Value="d.f. on s.s" />
+                        <Property Name="HorzExtent" Value="155" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{3.2,0},{0.78,0},{3.45,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialWater/SliderDynFricStatShape" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="2000" />
+                        <Property Name="ClickStepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{3.45,0},{0.9,0},{3.6,0}}" />
+                    </Window>
+                </AutoWindow>
+            </Window>
+        </Window>
+        <Window Type="OgreTray/FrameWindow" Name="Root/Editor/FrameMaterialForce" >
+            <Property Name="Visible" Value="False" />
+            <Property Name="CaptionFont" Value="DejaVuSans-10" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.614844,0},{0.8,0},{1,0},{1,0}}" />
+            <Window Type="OgreTray/ScrollablePane" Name="Root/Editor/FrameMaterialForce/ScrollPlane" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:597 b:91" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:597 b:91" />
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:597 b:91" />
+                    <Window Type="OgreTray/Editbox" Name="Root/Editor/FrameMaterialForce/EditForce" >
+                        <Property Name="Text" >0
+</Property>
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.28,0},{0.25,0},{0.5,0},{0.5,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialForce/TextForce" >
+                        <Property Name="Text" Value="Force" />
+                        <Property Name="HorzExtent" Value="90" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.25,0},{0.28,0},{0.5,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="OgreTray/Slider" Name="Root/Editor/FrameMaterialForce/SliderForce" >
+                        <Property Name="CurrentValue" Value="0" />
+                        <Property Name="MaximumValue" Value="10000" />
+                        <Property Name="ClickStepSize" Value="10" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{0.5,0},{0.65,0}}" />
+                    </Window>
+                    <Window Type="OgreTray/StaticText" Name="Root/Editor/FrameMaterialForce/ScrollPlane/ForceProperties" >
+                        <Property Name="Text" Value="Force Properties" />
+                        <Property Name="HorzExtent" Value="267" />
+                        <Property Name="VertExtent" Value="24.5181" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.9,0},{0.2,0}}" />
+                    </Window>
+                </AutoWindow>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

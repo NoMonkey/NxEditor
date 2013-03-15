@@ -1,0 +1,562 @@
+15:03:16: Creating resource group General
+15:03:16: Creating resource group Internal
+15:03:16: Creating resource group Autodetect
+15:03:16: SceneManagerFactory for type 'DefaultSceneManager' registered.
+15:03:16: Registering ResourceManager for type Material
+15:03:16: Registering ResourceManager for type Mesh
+15:03:16: Registering ResourceManager for type Skeleton
+15:03:16: MovableObjectFactory for type 'ParticleSystem' registered.
+15:03:16: OverlayElementFactory for type Panel registered.
+15:03:16: OverlayElementFactory for type BorderPanel registered.
+15:03:16: OverlayElementFactory for type TextArea registered.
+15:03:16: Registering ResourceManager for type Font
+15:03:16: ArchiveFactory for archive type FileSystem registered.
+15:03:16: ArchiveFactory for archive type Zip registered.
+15:03:16: DDS codec registering
+15:03:16: FreeImage version: 3.15.1
+15:03:16: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+15:03:16: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,sti
+15:03:16: Registering ResourceManager for type HighLevelGpuProgram
+15:03:16: Registering ResourceManager for type Compositor
+15:03:16: MovableObjectFactory for type 'Entity' registered.
+15:03:16: MovableObjectFactory for type 'Light' registered.
+15:03:16: MovableObjectFactory for type 'BillboardSet' registered.
+15:03:16: MovableObjectFactory for type 'ManualObject' registered.
+15:03:16: MovableObjectFactory for type 'BillboardChain' registered.
+15:03:16: MovableObjectFactory for type 'RibbonTrail' registered.
+15:03:16: Loading library .\RenderSystem_Direct3D9
+15:03:16: Installing plugin: D3D9 RenderSystem
+15:03:16: D3D9 : Direct3D9 Rendering Subsystem created.
+15:03:16: D3D9: Driver Detection Starts
+15:03:16: D3D9: Driver Detection Ends
+15:03:16: Plugin successfully installed
+15:03:16: Loading library .\RenderSystem_GL
+15:03:16: Installing plugin: GL RenderSystem
+15:03:16: OpenGL Rendering Subsystem created.
+15:03:16: Plugin successfully installed
+15:03:16: Loading library .\Plugin_ParticleFX
+15:03:16: Installing plugin: ParticleFX
+15:03:16: Particle Emitter Type 'Point' registered
+15:03:16: Particle Emitter Type 'Box' registered
+15:03:16: Particle Emitter Type 'Ellipsoid' registered
+15:03:16: Particle Emitter Type 'Cylinder' registered
+15:03:16: Particle Emitter Type 'Ring' registered
+15:03:16: Particle Emitter Type 'HollowEllipsoid' registered
+15:03:16: Particle Affector Type 'LinearForce' registered
+15:03:16: Particle Affector Type 'ColourFader' registered
+15:03:16: Particle Affector Type 'ColourFader2' registered
+15:03:16: Particle Affector Type 'ColourImage' registered
+15:03:16: Particle Affector Type 'ColourInterpolator' registered
+15:03:16: Particle Affector Type 'Scaler' registered
+15:03:16: Particle Affector Type 'Rotator' registered
+15:03:16: Particle Affector Type 'DirectionRandomiser' registered
+15:03:16: Particle Affector Type 'DeflectorPlane' registered
+15:03:16: Plugin successfully installed
+15:03:16: Loading library .\Plugin_BSPSceneManager
+15:03:16: Installing plugin: BSP Scene Manager
+15:03:16: Plugin successfully installed
+15:03:16: Loading library .\Plugin_CgProgramManager
+15:03:16: Installing plugin: Cg Program Manager
+15:03:16: Plugin successfully installed
+15:03:16: Loading library .\Plugin_PCZSceneManager
+15:03:16: Installing plugin: Portal Connected Zone Scene Manager
+15:03:16: PCZone Factory Type 'ZoneType_Default' registered
+15:03:16: Plugin successfully installed
+15:03:16: Loading library .\Plugin_OctreeZone
+15:03:16: Installing plugin: Octree Zone Factory
+15:03:16: Plugin successfully installed
+15:03:16: Loading library .\Plugin_OctreeSceneManager
+15:03:16: Installing plugin: Octree & Terrain Scene Manager
+15:03:16: Plugin successfully installed
+15:03:16: *-*-* OGRE Initialising
+15:03:16: *-*-* Version 1.7.4 (Cthugha)
+15:03:16: Creating resource group Fonts
+15:03:16: Added resource location './CEGUI-0.7.7/datafiles/fonts' of type 'FileSystem' to resource group 'Fonts'
+15:03:16: Added resource location './media' of type 'FileSystem' to resource group 'General'
+15:03:16: Creating resource group Imagesets
+15:03:16: Added resource location './CEGUI-0.7.7/datafiles/imagesets' of type 'FileSystem' to resource group 'Imagesets'
+15:03:16: Creating resource group Layouts
+15:03:16: Added resource location './CEGUI-0.7.7/datafiles/layouts' of type 'FileSystem' to resource group 'Layouts'
+15:03:16: Creating resource group LookNFeel
+15:03:16: Added resource location './CEGUI-0.7.7/datafiles/looknfeel' of type 'FileSystem' to resource group 'LookNFeel'
+15:03:16: Creating resource group Popular
+15:03:16: Added resource location './media/materials/programs' of type 'FileSystem' to resource group 'Popular'
+15:03:16: Added resource location './media/materials/scripts' of type 'FileSystem' to resource group 'Popular'
+15:03:16: Added resource location './media/materials/textures' of type 'FileSystem' to resource group 'Popular'
+15:03:16: Added resource location './media/models' of type 'FileSystem' to resource group 'Popular'
+15:03:16: Added resource location './media/packs/NxOgre.zip' of type 'Zip' to resource group 'Popular'
+15:03:16: Creating resource group Schemes
+15:03:16: Added resource location './CEGUI-0.7.7/datafiles/schemes' of type 'FileSystem' to resource group 'Schemes'
+15:03:16: D3D9 : RenderSystem Option: Allow NVPerfHUD = No
+15:03:16: D3D9 : RenderSystem Option: FSAA = 2
+15:03:16: D3D9 : RenderSystem Option: Floating-point mode = Consistent
+15:03:16: D3D9 : RenderSystem Option: Full Screen = No
+15:03:16: D3D9 : RenderSystem Option: Rendering Device = Monitor-1-NVIDIA GeForce GTX 670
+15:03:16: D3D9 : RenderSystem Option: Resource Creation Policy = Create on all devices
+15:03:16: D3D9 : RenderSystem Option: VSync = No
+15:03:16: D3D9 : RenderSystem Option: VSync Interval = 1
+15:03:16: D3D9 : RenderSystem Option: Video Mode = 1366 x 768 @ 32-bit colour
+15:03:16: D3D9 : RenderSystem Option: sRGB Gamma Conversion = No
+15:03:17: CPU Identifier & Features
+15:03:17: -------------------------
+15:03:17:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz
+15:03:17:  *      SSE: yes
+15:03:17:  *     SSE2: yes
+15:03:17:  *     SSE3: yes
+15:03:17:  *      MMX: yes
+15:03:17:  *   MMXEXT: yes
+15:03:17:  *    3DNOW: no
+15:03:17:  * 3DNOWEXT: no
+15:03:17:  *     CMOV: yes
+15:03:17:  *      TSC: yes
+15:03:17:  *      FPU: yes
+15:03:17:  *      PRO: yes
+15:03:17:  *       HT: no
+15:03:17: -------------------------
+15:03:17: D3D9 : Subsystem Initialising
+15:03:17: Registering ResourceManager for type Texture
+15:03:17: Registering ResourceManager for type GpuProgram
+15:03:17: D3D9RenderSystem::_createRenderWindow "NxEditor Render Window", 1366x768 windowed  miscParams: FSAA=2 FSAAHint= colourDepth=32 gamma=false monitorIndex=0 useNVPerfHUD=false vsync=false vsyncInterval=1 
+15:03:17: D3D9 : Created D3D9 Rendering Window 'NxEditor Render Window' : 1366x768, 32bpp
+15:03:17: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+15:03:17: D3D9: Vertex texture format supported - PF_A8R8G8B8
+15:03:17: D3D9: Vertex texture format supported - PF_B8G8R8A8
+15:03:17: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+15:03:17: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+15:03:17: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+15:03:17: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+15:03:17: D3D9: Vertex texture format supported - PF_R8G8B8A8
+15:03:17: D3D9: Vertex texture format supported - PF_DEPTH
+15:03:17: D3D9: Vertex texture format supported - PF_FLOAT16_R
+15:03:17: D3D9: Vertex texture format supported - PF_FLOAT32_R
+15:03:17: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+15:03:17: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+15:03:17: D3D9: Vertex texture format supported - PF_PVRTC_RGB2
+15:03:17: D3D9: Vertex texture format supported - PF_PVRTC_RGBA2
+15:03:17: D3D9: Vertex texture format supported - PF_PVRTC_RGB4
+15:03:17: D3D9: Vertex texture format supported - PF_PVRTC_RGBA4
+15:03:17: RenderSystem capabilities
+15:03:17: -------------------------
+15:03:17: RenderSystem Name: Direct3D9 Rendering Subsystem
+15:03:17: GPU Vendor: nvidia
+15:03:17: Device Name: Monitor-1-NVIDIA GeForce GTX 670
+15:03:17: Driver Version: 9.18.13.1407
+15:03:17:  * Fixed function pipeline: yes
+15:03:17:  * Hardware generation of mipmaps: yes
+15:03:17:  * Texture blending: yes
+15:03:17:  * Anisotropic texture filtering: yes
+15:03:17:  * Dot product texture operation: yes
+15:03:17:  * Cube mapping: yes
+15:03:17:  * Hardware stencil buffer: yes
+15:03:17:    - Stencil depth: 8
+15:03:17:    - Two sided stencil support: yes
+15:03:17:    - Wrap stencil values: yes
+15:03:17:  * Hardware vertex / index buffers: yes
+15:03:17:  * Vertex programs: yes
+15:03:17:  * Number of floating-point constants for vertex programs: 256
+15:03:17:  * Number of integer constants for vertex programs: 16
+15:03:17:  * Number of boolean constants for vertex programs: 16
+15:03:17:  * Fragment programs: yes
+15:03:17:  * Number of floating-point constants for fragment programs: 224
+15:03:17:  * Number of integer constants for fragment programs: 16
+15:03:17:  * Number of boolean constants for fragment programs: 16
+15:03:17:  * Geometry programs: no
+15:03:17:  * Number of floating-point constants for geometry programs: 0
+15:03:17:  * Number of integer constants for geometry programs: 0
+15:03:17:  * Number of boolean constants for geometry programs: 0
+15:03:17:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+15:03:17:  * Texture Compression: yes
+15:03:17:    - DXT: yes
+15:03:17:    - VTC: no
+15:03:17:    - PVRTC: no
+15:03:17:  * Scissor Rectangle: yes
+15:03:17:  * Hardware Occlusion Query: yes
+15:03:17:  * User clip planes: yes
+15:03:17:  * VET_UBYTE4 vertex element type: yes
+15:03:17:  * Infinite far plane projection: yes
+15:03:17:  * Hardware render-to-texture: yes
+15:03:17:  * Floating point textures: yes
+15:03:17:  * Non-power-of-two textures: yes
+15:03:17:  * Volume textures: yes
+15:03:17:  * Multiple Render Targets: 4
+15:03:17:    - With different bit depths: yes
+15:03:17:  * Point Sprites: yes
+15:03:17:  * Extended point parameters: yes
+15:03:17:  * Max Point Size: 10
+15:03:17:  * Vertex texture fetch: yes
+15:03:17:  * Number of world matrices: 0
+15:03:17:  * Number of texture units: 8
+15:03:17:  * Stencil buffer depth: 8
+15:03:17:  * Number of vertex blend matrices: 0
+15:03:17:    - Max vertex textures: 4
+15:03:17:    - Vertex textures shared: no
+15:03:17:  * Render to Vertex Buffer : no
+15:03:17:  * DirectX per stage constants: yes
+15:03:17: ***************************************
+15:03:17: *** D3D9 : Subsystem Initialised OK ***
+15:03:17: ***************************************
+15:03:17: DefaultWorkQueue('Root') initialising on thread 0070A8C8.
+15:03:17: DefaultWorkQueue('Root')::WorkerFunc - thread 007245D0 starting.
+15:03:17: DefaultWorkQueue('Root')::WorkerFunc - thread 00724600 starting.
+15:03:17: DefaultWorkQueue('Root')::WorkerFunc - thread 00724630 starting.
+15:03:17: DefaultWorkQueue('Root')::WorkerFunc - thread 00724660 starting.
+15:03:17: DefaultWorkQueue('Root')::WorkerFunc - thread 00724690 starting.
+15:03:17: DefaultWorkQueue('Root')::WorkerFunc - thread 007246C0 starting.
+15:03:17: Particle Renderer Type 'billboard' registered
+15:03:17: DefaultWorkQueue('Root')::WorkerFunc - thread 00724720 starting.
+15:03:17: DefaultWorkQueue('Root')::WorkerFunc - thread 007246F0 starting.
+15:03:17: SceneManagerFactory for type 'BspSceneManager' registered.
+15:03:17: Registering ResourceManager for type BspLevel
+15:03:17: SceneManagerFactory for type 'PCZSceneManager' registered.
+15:03:17: MovableObjectFactory for type 'PCZLight' registered.
+15:03:17: MovableObjectFactory for type 'Portal' registered.
+15:03:17: MovableObjectFactory for type 'AntiPortal' registered.
+15:03:17: PCZone Factory Type 'ZoneType_Octree' registered
+15:03:17: PCZone Factory Type 'ZoneType_Terrain' registered
+15:03:17: SceneManagerFactory for type 'OctreeSceneManager' registered.
+15:03:17: SceneManagerFactory for type 'TerrainSceneManager' registered.
+15:03:17: Parsing scripts for resource group Autodetect
+15:03:17: Finished parsing scripts for resource group Autodetect
+15:03:17: Parsing scripts for resource group Fonts
+15:03:17: Finished parsing scripts for resource group Fonts
+15:03:17: Parsing scripts for resource group General
+15:03:17: Finished parsing scripts for resource group General
+15:03:17: Parsing scripts for resource group Imagesets
+15:03:17: Finished parsing scripts for resource group Imagesets
+15:03:17: Parsing scripts for resource group Internal
+15:03:17: Finished parsing scripts for resource group Internal
+15:03:17: Parsing scripts for resource group Layouts
+15:03:17: Finished parsing scripts for resource group Layouts
+15:03:17: Parsing scripts for resource group LookNFeel
+15:03:17: Finished parsing scripts for resource group LookNFeel
+15:03:17: Parsing scripts for resource group Popular
+15:03:17: Parsing script NxEditor.material
+15:03:17: Compiler error: unknown error in NxEditor.material(66): token "texture" is not recognized
+15:03:17: Compiler error: unknown error in NxEditor.material(82): token "texture" is not recognized
+15:03:17: Compiler error: unknown error in NxEditor.material(115): token "texture" is not recognized
+15:03:17: Compiler error: unknown error in NxEditor.material(131): token "texture" is not recognized
+15:03:17: Compiler error: unknown error in NxEditor.material(165): token "texture" is not recognized
+15:03:17: Compiler error: unknown error in NxEditor.material(181): token "texture" is not recognized
+15:03:17: Compiler error: unknown error in NxEditor.material(215): token "cull_hardware" is not recognized
+15:03:17: Parsing script SSFR.material
+15:03:17: OGRE EXCEPTION(2:InvalidParametersException): Parameter called depthRange does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1435)
+15:03:17: Compiler error: invalid parameters in SSFR.material(12): setting of constant failed
+15:03:17: OGRE EXCEPTION(2:InvalidParametersException): Parameter called texelOffsets does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1435)
+15:03:17: Compiler error: invalid parameters in SSFR.material(13): setting of constant failed
+15:03:17: OGRE EXCEPTION(2:InvalidParametersException): Parameter called depthRange does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1435)
+15:03:17: Compiler error: invalid parameters in SSFR.material(27): setting of constant failed
+15:03:17: OGRE EXCEPTION(2:InvalidParametersException): Parameter called near does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1435)
+15:03:17: Compiler error: invalid parameters in SSFR.material(111): setting of constant failed
+15:03:17: OGRE EXCEPTION(2:InvalidParametersException): Parameter called far does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1435)
+15:03:17: Compiler error: invalid parameters in SSFR.material(112): setting of constant failed
+15:03:17: OGRE EXCEPTION(2:InvalidParametersException): Parameter called invProj_m does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1435)
+15:03:17: Compiler error: invalid parameters in SSFR.material(113): setting of constant failed
+15:03:17: OGRE EXCEPTION(2:InvalidParametersException): Parameter called invWorldView_m does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1435)
+15:03:17: Compiler error: invalid parameters in SSFR.material(161): setting of constant failed
+15:03:17: OGRE EXCEPTION(2:InvalidParametersException): Parameter called lightPos does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1435)
+15:03:17: Compiler error: invalid parameters in SSFR.material(163): setting of constant failed
+15:03:17: OGRE EXCEPTION(2:InvalidParametersException): Parameter called worldView_m does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1435)
+15:03:17: Compiler error: invalid parameters in SSFR.material(164): setting of constant failed
+15:03:17: Parsing script racecar.material
+15:03:17: Parsing script wheel50cmx10cmx50cm.material
+15:03:17: Parsing script photon.material
+15:03:17: Parsing script cc.material
+15:03:17: Parsing script nxogre.zz.particle
+15:03:17: Finished parsing scripts for resource group Popular
+15:03:17: Parsing scripts for resource group Schemes
+15:03:17: Finished parsing scripts for resource group Schemes
+15:03:17: Texture: _cegui_ogre_0: Loading 1 faces(PF_A8B8G8R8,128x128x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+15:03:17: Texture: _cegui_ogre_1: Loading 1 faces(PF_A8B8G8R8,256x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+15:03:17: Texture: SplashScreen.png: Loading 1 faces(PF_R8G8B8,1920x1080x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1920x1080x1.
+15:03:17: *** Initializing OIS ***
+15:03:18: Texture: _cegui_ogre_5: Loading 1 faces(PF_A8B8G8R8,256x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+15:03:19: Texture: nxogre.floor.png: Loading 1 faces(PF_A8R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+15:03:20: Texture: spot_shadow_fade.png: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+15:03:21: Mesh: Loading globe.mesh.
+15:03:21: Can't assign material GlobeMaterial to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:22: Texture: globeTexture.jpg: Loading 1 faces(PF_R8G8B8,2048x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,2048x1024x1.
+15:03:22: Can't assign material GlobeMaterial to SubEntity of Ogre/MO2 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:25: Mesh: Loading towerblock.mesh.
+15:03:25: Can't assign material towerblockMaterial to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:25: Texture: towerblock.png: Loading 1 faces(PF_A8R8G8B8,800x428x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,800x428x1.
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO3 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO4 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO5 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO6 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO7 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO8 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO9 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO10 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO11 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO12 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO13 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO14 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO15 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO16 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO17 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO18 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO19 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO20 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO21 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO22 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO23 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO24 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO25 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO26 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO27 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO28 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO29 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO30 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO31 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO32 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO33 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO34 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO35 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO36 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO37 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO38 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO39 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO40 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO41 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO42 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO43 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO44 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO45 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO46 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO47 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO48 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO49 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO50 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO51 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO52 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO53 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO54 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO55 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO56 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO57 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO58 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO59 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO60 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO61 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO62 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO63 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO64 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO65 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO66 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO67 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO68 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO69 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO70 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO71 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO72 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO73 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO74 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO75 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO76 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO77 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO78 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO79 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO80 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO81 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO82 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO83 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO84 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO85 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO86 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO87 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO88 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO89 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO90 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO91 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:26: Can't assign material towerblockMaterial to SubEntity of Ogre/MO92 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:38: Mesh: Loading cube.1m.mesh.
+15:03:38: Texture: nxogre.cube.png: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+15:03:38: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:03:39: Can't assign material NxEditor/Preview/Water to SubEntity of preview because this Material does not exist. Have you forgotten to define it in a .material script?
+15:04:06: DefaultWorkQueue('Root') shutting down on thread 0070A8C8.
+15:04:06: DefaultWorkQueue('Root')::WorkerFunc - thread 00724660 stopped.
+15:04:06: DefaultWorkQueue('Root')::WorkerFunc - thread 00724690 stopped.
+15:04:06: DefaultWorkQueue('Root')::WorkerFunc - thread 00724630 stopped.
+15:04:06: DefaultWorkQueue('Root')::WorkerFunc - thread 00724720 stopped.
+15:04:06: DefaultWorkQueue('Root')::WorkerFunc - thread 007246F0 stopped.
+15:04:06: DefaultWorkQueue('Root')::WorkerFunc - thread 007246C0 stopped.
+15:04:06: DefaultWorkQueue('Root')::WorkerFunc - thread 007245D0 stopped.
+15:04:06: DefaultWorkQueue('Root')::WorkerFunc - thread 00724600 stopped.
+15:04:06: PCZone Factory Type 'ZoneType_Octree' unregistered
+15:04:06: PCZone Factory Type 'ZoneType_Terrain' unregistered
+15:04:06: Unregistering ResourceManager for type BspLevel
+15:04:06: *-*-* OGRE Shutdown
+15:04:06: Unregistering ResourceManager for type Compositor
+15:04:06: Unregistering ResourceManager for type Font
+15:04:06: Unregistering ResourceManager for type Skeleton
+15:04:06: Unregistering ResourceManager for type Mesh
+15:04:06: Unregistering ResourceManager for type HighLevelGpuProgram
+15:04:06: Uninstalling plugin: Octree & Terrain Scene Manager
+15:04:06: Plugin successfully uninstalled
+15:04:06: Unloading library .\Plugin_OctreeSceneManager
+15:04:06: Uninstalling plugin: Octree Zone Factory
+15:04:06: Plugin successfully uninstalled
+15:04:06: Unloading library .\Plugin_OctreeZone
+15:04:06: Uninstalling plugin: Portal Connected Zone Scene Manager
+15:04:06: Plugin successfully uninstalled
+15:04:06: Unloading library .\Plugin_PCZSceneManager
+15:04:06: Uninstalling plugin: Cg Program Manager
+15:04:06: Plugin successfully uninstalled
+15:04:06: Unloading library .\Plugin_CgProgramManager
+15:04:06: Uninstalling plugin: BSP Scene Manager
+15:04:06: Plugin successfully uninstalled
+15:04:06: Unloading library .\Plugin_BSPSceneManager
+15:04:06: Uninstalling plugin: ParticleFX
+15:04:06: Plugin successfully uninstalled
+15:04:06: Unloading library .\Plugin_ParticleFX
+15:04:06: Uninstalling plugin: GL RenderSystem
+15:04:06: *** Stopping Win32GL Subsystem ***
+15:04:06: Plugin successfully uninstalled
+15:04:06: Unloading library .\RenderSystem_GL
+15:04:06: Uninstalling plugin: D3D9 RenderSystem
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: _cegui_ogre_0
+15:04:06: Released D3D9 texture: _cegui_ogre_0
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: _cegui_ogre_1
+15:04:06: Released D3D9 texture: _cegui_ogre_1
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: DepthTex
+15:04:06: Released D3D9 texture: DepthTex
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: BGdepthTex
+15:04:06: Released D3D9 texture: BGdepthTex
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: NormalTex
+15:04:06: Released D3D9 texture: NormalTex
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: BackgroundTex
+15:04:06: Released D3D9 texture: BackgroundTex
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: ThicknessTex
+15:04:06: Released D3D9 texture: ThicknessTex
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: SplashScreen.png
+15:04:06: Released D3D9 texture: SplashScreen.png
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: _cegui_ogre_4
+15:04:06: Released D3D9 texture: _cegui_ogre_4
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: _cegui_ogre_5
+15:04:06: Released D3D9 texture: _cegui_ogre_5
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: _cegui_ogre_7
+15:04:06: Released D3D9 texture: _cegui_ogre_7
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: _cegui_ogre_9
+15:04:06: Released D3D9 texture: _cegui_ogre_9
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: _cegui_ogre_11
+15:04:06: Released D3D9 texture: _cegui_ogre_11
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: _cegui_ogre_13
+15:04:06: Released D3D9 texture: _cegui_ogre_13
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: _cegui_ogre_15
+15:04:06: Released D3D9 texture: _cegui_ogre_15
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: _cegui_ogre_17
+15:04:06: Released D3D9 texture: _cegui_ogre_17
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: _cegui_ogre_19
+15:04:06: Released D3D9 texture: _cegui_ogre_19
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: _cegui_ogre_21
+15:04:06: Released D3D9 texture: _cegui_ogre_21
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: _cegui_ogre_23
+15:04:06: Released D3D9 texture: _cegui_ogre_23
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: _cegui_ogre_25
+15:04:06: Released D3D9 texture: _cegui_ogre_25
+15:04:06: D3D9 device: 0x[030DB1A0] destroy. Releasing D3D9 texture: _cegui_ogre_27
+15:04:06: Released D3D9 texture: _cegui_ogre_27
+15:04:06: D3D9 : Shutting down cleanly.
+15:04:06: Unregistering ResourceManager for type Texture
+15:04:06: Unregistering ResourceManager for type GpuProgram
+15:04:06: D3D9 : Direct3D9 Rendering Subsystem destroyed.
+15:04:06: Plugin successfully uninstalled
+15:04:06: Unloading library .\RenderSystem_Direct3D9
+15:04:06: Unregistering ResourceManager for type Material

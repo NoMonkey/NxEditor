@@ -1,0 +1,297 @@
+// DEPTH
+vertex_program SSFRdepthVS hlsl
+{
+	source SSFR_depth.hlsl
+	entry_point mainVS
+	target vs_1_1
+	default_params
+	{
+		param_named_auto 	worldViewProj_m 	worldViewProj_matrix
+		param_named_auto	worldView_m			worldView_matrix
+		param_named			sphereRadius		float	0.2
+		param_named_auto depthRange scene_depth_range
+		param_named_auto texelOffsets texel_offsets
+	}
+}
+ 
+fragment_program SSFRdepthPS hlsl
+{
+	source SSFR_depth.hlsl
+	entry_point mainPS
+	target ps_2_0
+	default_params
+	{
+		param_named_auto	projMatrix		 projection_matrix
+		param_named			sphereRadius	 float	0.2
+		param_named_auto	farClipPlane	 far_clip_distance
+		param_named_auto	depthRange		 scene_depth_range
+		
+
+	}
+}
+
+material SSFRdepth
+{
+	technique
+	{
+		pass 
+		{
+			vertex_program_ref SSFRdepthVS
+			{
+			}
+			fragment_program_ref SSFRdepthPS
+			{
+			}
+		}
+	}
+}
+
+// THICKNESS
+vertex_program SSFRthicknessVS hlsl
+{
+	source SSFR_thickness.hlsl
+	entry_point mainVS
+	target vs_1_1
+	default_params
+	{
+		param_named_auto 	worldViewProj_m 	worldViewProj_matrix
+		param_named			sphereRadius		float	0.2
+	}
+}
+ 
+fragment_program SSFRthicknessPS hlsl
+{
+	source SSFR_thickness.hlsl
+	entry_point mainPS
+	target ps_2_0
+	default_params
+	{
+
+	}
+}
+
+material SSFRthickness
+{
+	technique
+	{
+		pass 
+		{
+			depth_check off
+			scene_blend add
+			vertex_program_ref SSFRthicknessVS
+			{
+			}
+			fragment_program_ref SSFRthicknessPS
+			{
+			}
+		}
+	}
+}
+
+//BLUR
+
+vertex_program SSFRblurVS hlsl
+{
+	source SSFR_blur.hlsl
+	entry_point mainVS
+	target vs_1_1
+	default_params
+	{
+		param_named_auto 	worldViewProj_m 	worldViewProj_matrix
+	}
+}
+ 
+fragment_program SSFRblurPS hlsl
+{
+	source SSFR_blur.hlsl
+	entry_point mainPS
+	target ps_3_0
+	default_params
+	{
+		param_named_auto near			near_clip_distance
+		param_named_auto far			far_clip_distance
+		param_named_auto invProj_m		inverse_projection_matrix
+	}
+}
+
+
+
+material SSFRblur
+{
+	technique
+	{
+		pass
+		{
+			vertex_program_ref SSFRblurVS
+			{
+			}
+			fragment_program_ref SSFRblurPS
+			{
+			}	
+			texture_unit
+            {
+              texture DepthTex
+            }		
+		}
+	}
+}
+
+
+//NORMAL
+vertex_program SSFRnormalVS hlsl
+{
+	source SSFR_normal.hlsl
+	entry_point mainVS
+	target vs_1_1
+	default_params
+	{
+		param_named_auto 	worldViewProj_m 	worldViewProj_matrix
+		
+	}
+}
+ 
+fragment_program SSFRnormalPS hlsl
+{
+	source SSFR_normal.hlsl
+	entry_point mainPS
+	target ps_3_0
+	default_params
+	{
+		param_named_auto	invProj_m		inverse_projection_matrix
+		param_named_auto	invWorldView_m	inverse_worldview_matrix
+		param_named_auto	far				far_clip_distance
+		param_named_auto    lightPos        light_position 0
+		param_named_auto	worldView_m		worldView_matrix
+	}
+}
+
+
+
+material SSFRnormal
+{
+	technique
+	{
+		pass
+		{
+			vertex_program_ref SSFRnormalVS
+			{
+			}
+			fragment_program_ref SSFRnormalPS
+			{
+			}	
+			texture_unit
+            {
+              texture BlurTex
+            }		
+		}
+	}
+}
+
+
+
+// BACKGROUNDDEPTH
+vertex_program SSFRbgdepthVS hlsl
+{
+	source SSFR_bgdepth.hlsl
+	entry_point mainVS
+	target vs_1_1
+	default_params
+	{
+		param_named_auto	worldView_m			worldView_matrix
+		param_named_auto 	worldViewProj_m 	worldViewProj_matrix
+	}
+}
+ 
+fragment_program SSFRbgdepthPS hlsl
+{
+	source SSFR_bgdepth.hlsl
+	entry_point mainPS
+	target ps_2_0
+	default_params
+	{
+		param_named_auto	farClipPlane	 far_clip_distance
+		param_named_auto	projMatrix		 projection_matrix
+	}
+}
+
+material SSFRbgdepth
+{
+	receive_shadows off
+	technique
+	{
+		pass 
+		{
+			vertex_program_ref SSFRbgdepthVS
+			{
+			}
+			fragment_program_ref SSFRbgdepthPS
+			{
+			}
+		}
+	}
+}
+
+//SHADE
+
+
+vertex_program SSFRshadeVS hlsl
+{
+	source SSFR_shade.hlsl
+	entry_point mainVS
+	target vs_1_1
+	default_params
+	{
+		param_named_auto 	worldViewProj_m 	worldViewProj_matrix
+	}
+}
+ 
+fragment_program SSFRshadePS hlsl
+{
+	source SSFR_shade.hlsl
+	entry_point mainPS
+	target ps_3_0
+	default_params
+	{
+		param_named_auto	lightEyePos		light_position_view_space 0
+		param_named_auto	far				far_clip_distance
+		param_named_auto	invProj_m		inverse_projection_matrix
+	}
+}
+
+
+
+material SSFRshade
+{
+	technique
+	{
+		pass
+		{
+			vertex_program_ref SSFRshadeVS
+			{
+			}
+			fragment_program_ref SSFRshadePS
+			{
+			}	
+			texture_unit
+            {
+              texture DepthTex
+            }
+			texture_unit
+            {
+              texture BGdepthTex
+            }	
+			texture_unit
+            {
+              texture BackgroundTex
+            }
+			texture_unit
+            {
+              texture NormalTex
+            }		
+			texture_unit
+			{
+			  texture ThicknessTex
+			}	
+		}
+	}
+}
